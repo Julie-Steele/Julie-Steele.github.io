@@ -1,4 +1,4 @@
-title: Researcher
+title: Julie Steele
 url: ""
 baseurl: ""
 
@@ -17,7 +17,7 @@ sass:
 
 nav:
  - name: "About"
-   link: "/researcher/"
+   link: ""
  - name: "Resume"
    link: "resume.pdf"
  - name: "Contact"

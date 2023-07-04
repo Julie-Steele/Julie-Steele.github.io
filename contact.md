@@ -3,9 +3,9 @@ layout: default
 is_contact: true
 ---
 
-* Email: [foo@xyz.com](mailto:foo@xyz.com)
+* Email: [jssteele@mit.edu](mailto:jssteele@mit.edu)
 
-* Phone: [+91-123123](tel:+91-123123)
+* Hi: [julie.s.steele]()
 
 ---
 
@@ -21,6 +21,6 @@ is_contact: true
 
 ## Social
 
-1. [Facebook](#)
+1. [Instagram](https://www.instagram.com/julie.s.steele/?hl=en)
 2. [Twitter](#)
 3. [Google+](#)
