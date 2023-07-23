@@ -1,45 +1,44 @@
 ---
 layout: default
 ---
+# Challenges
 
-## About Me
+## Current Short Term
 
-<img class="profile-picture" src="JuliePhotoBrick.jpg">
+- Don’t ask for anything for a day (3/21) challenged by Tinah
+    - I keep on forgetting! Just in casual “Hey could you look at this photo etc”
+- Lay out outfit the night before for 1 week (started 3/9) challenged by Nora
+- Diary at least 1 sentence a day for 1 month, include happy moments (started 3/18) challenged by Nora
+- Pointing north on the hour every hour for 1 week (started 3/12) to become better at directions
 
-Hi! I’m Julie Steele, a sophomore at MIT studying computer science, artificial intelligence, and econ. I love math problems, dancing, improv comedy, and thinking about the future of the world.
+## Current Ongoing
 
-This is a jekyll based resume template. You can find the full source code on [GitHub](https://github.com/bk2dcradle/researcher)
+- Prove everything assumed in my Linear class (started 2/6)
+- After interactions reflect on how the person makes me a better person (started 3/18) challenged by Tinah
+- Listening to [Love on Top by Beyoncé](https://open.spotify.com/track/1z6WtY7X4HQJvzxC4UgkSf?si=07dd6dd216d545d5) before any focused work session to build a focusing habit (started 2/6) challenged by Zach
+    - 3/18 Don’t feel an association with the song yet, but the ritual of saying “I’m going to work now” seems to work
+- Will accept challenges of 10+ minutes of silent staring inspired by artist [Marina Abramović](https://www.moma.org/learn/moma_learning/marina-abramovic-marina-abramovic-the-artist-is-present-2010/)
+    - Boring and deep
+- Phone locked to max 30 mins Youtube+Tiktok and max 20 mins Instagram
+    - Going great!
 
-## Research Interest
+## Past Challenges
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus ipsum ac erat aliquam dapibus. Vestibulum vehicula placerat ex, a consectetur odio pharetra quis. Mauris id urna ante. Fusce pharetra diam ac nisi aliquet, vel egestas ex iaculis. Pellentesque laoreet cursus tellus sed pellentesque. Praesent a rhoncus elit. Nunc ipsum nisl, consequat sit amet pretium quis, gravida id ipsum.
+- Vegan for 1 week (started 2/5) challenged by Ryan SUCCESS with a couple mistakes
+    - I continue to be mostly vegetarian + no eggs (No dairy effects my life so much, and less animal suffering from dairy)
+    - Easier than I thought in the dining hall
+- Phone black and white extended 2 weeks (started 1/26) FAILED
+    - Too annoying
+- Phone black and white for 1 week (started 1/26) challenged by Alex SUCCESS
+    - I want to do this again next time I feel too phone addicted
+    - 
 
-## Publications
+## Want to do
 
-1. F.Bar, J.Doe: Effects of having a placeholder of a name
-2. S.Holmes, J.Watson: Consequences of living with a sociopath in London
+- Drinking water/ enough water
+- No silent elevator rides/ waiting before class etc
+- Learn about a strangers life every day
+- Say hi to everyone that you pass
+- Complimenting people
 
-## Typography
-
-This is a [link](http://google.com). Something *italics* and something **bold**.
-
-Here is a table
-
-Year | Award | Category
------|-------|--------
-2014 | Emmy  | Won Outstanding Lead Actor in a miniseries or a movie
-2015 | BAFTA | Nominated for Best Leading Actor for Sherlock
-2014 | Satellite | Won Best Actor miniseries or television film
-
-Here is a horizontal rule
-
----
-
-Here is a blockquote
-
-> To a great mind, nothing is little
-
-## References
-
-* Foo Bar: Head of Department, Placeholder Names, Lorem
-* John Doe: Associate Professor, Department of Computer Science, Ipsum
+**Send me more challenge ideas!**
