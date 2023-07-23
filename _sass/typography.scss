@@ -1,5 +1,11 @@
 @import "vars";
 
+.module {
+    cursor: url('cursor.cur'), auto;	
+  }
+
+
+
 .content {
     a:hover {
         text-decoration: underline;

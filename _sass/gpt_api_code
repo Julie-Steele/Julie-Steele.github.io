@@ -37,54 +37,10 @@ def generate(messages, model=None): # "gpt-3.5-turbo", "gpt-4"
         )
 
 
-@memory.cache
-def ask(message, model=None):
-    response = generate([{"role":"user", "content": message}], model=model)
-    return response.choices[0].message.content
+#this will be input 
+theme =  "yucky awful design" 
 
-# creation = openai.ChatCompletion.create(
-#         model="gpt-3.5-turbo-0613",
-#         messages= [{"role":"user", "content": "tell me about birds, and what is 1 added to 1, don't forget to use my function"}],
-#         functions = [
-#     {
-#       "name": "get_subtract",
-#       "description": "subtract 2 numbers",
-#       "parameters": {
-#         "type": "object", #??
-#         "properties": {
-#           "firstnum": {
-#             "type": "number", #string breaks it
-#             "description": "will subtract this to the other number"
-#           },
-#           "secondnum": {
-#             "type": "number",
-#             "description": "will subtract this to the first number"
-#           }
-#         },
-#         "required": ["firstnum", "secondnum"]
-#       }
-#     }
-#   ]
-#         )
-
-
-# # print(creation) 
-# # addargs = creation.choices[0].message.function_call.arguments
-
-# def add(addargs):
-#     addarg1, addarg2 = addargs.split()[2], addargs.split()[4]
-
-#     addarg1 = addarg1.replace(",", "")
-#     addarg1, addarg2 = float(addarg1), float(addarg2)
-
-#     return addarg1 + addarg2
-    
-
-# print(add(addargs))
-
-theme = "pink whimsical fairy tale"
-
-response = ask("return beautiful unusual css for a website that looks like"+ theme + "that replaces this css code + """"@import "vars";
+message = "return beautiful unusual css for a website that looks like"+ theme + "that replaces this css code + """"@import "vars";
 
 /*
  * Basic
@@ -214,8 +170,42 @@ hr {
 }
 
 @import "typography";
-@import "tables";""")
+@import "tables";"""
 
 
+@memory.cache
+def ask(message, model=None):
+    response = generate([{"role":"user", "content": message}], model=model)
+    return response.choices[0].message.content
 
-# with open("_style.css"), mode="wt") as f:
+creation = openai.ChatCompletion.create(
+        model="gpt-3.5-turbo-0613",
+        messages= [{"role":"user", "content": message}],
+        functions = [
+    {
+      "name": "get_css",
+      "description": "makes css to fit a visual theme",
+      "parameters": {
+        "type": "object", #??
+        "properties": {
+          "csscode": {
+            "type": "string", #??
+            "description": "this will be the css code used for the website"
+          },
+        },
+        "required": ["css code"]
+      }
+    }
+  ]
+        )
+
+csscode = str(creation.choices[0].message.function_call.arguments[15:-1])
+
+def add_css_to_stylefile(csscode):
+    with open("_sass/_style.scss", "w") as stylefile:
+        stylefile.write(csscode)
+        stylefile.close()
+
+add_css_to_stylefile(csscode)
+
+# add_css_to_stylefile("TESTTTT")
