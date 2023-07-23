@@ -16,9 +16,15 @@ sass:
     sass_dir: _sass
 
 nav:
- - name: "About"
+ - name: "Home"
    link: ""
- - name: "Resume"
+ - name: "What I'm Up To"
+   link: "what-im-up-to"
+ - name: "Challenges/ideas"
+   link: "challenges-ideas"
+ - name: "Feedback"
    link: "resume.pdf"
+ - name: "Random"
+   link: "random"
  - name: "Contact"
    link: "contact"
