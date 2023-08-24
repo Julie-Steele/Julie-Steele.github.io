@@ -22,5 +22,6 @@ is_contact: true
 ## Social
 
 1. [Instagram](https://www.instagram.com/julie.s.steele/?hl=en)
-2. [Twitter](#)
+2. [GitHub](#)
 3. [Google+](#)
+4. 
