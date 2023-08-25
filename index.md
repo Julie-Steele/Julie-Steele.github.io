@@ -6,6 +6,7 @@ layout: default
 
 <img class="profile-picture" src="JuliePhotoBrick.jpg">
 
+AAA HOW DID U FIND THIS WORK IN PROGRESS 
 Hi! I’m Julie Steele, a sophomore at MIT studying computer science, artificial intelligence, and econ. I love math problems, dancing, improv comedy, and thinking about the future of the world. I'm currently spending the summer researching on two symbolic AI projects. 
 
 This is a jekyll based resume template. You can find the full source code on [GitHub](https://github.com/bk2dcradle/researcher)
