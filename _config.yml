@@ -20,6 +20,8 @@ nav:
    link: ""
  - name: "What I'm Up To"
    link: "what-im-up-to"
+ - name: "Reflection" 
+   link: "reflection" 
  - name: "Goals & Challenges"
    link: "goals-and-challenges"
  - name: "Feedback"
