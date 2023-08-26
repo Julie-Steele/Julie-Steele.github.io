@@ -4,6 +4,14 @@ layout: default
 
 ## Reflection on classes
 
+### Freshman spring
+
+- **18.06**: I love linear algebra as a topic, but this class doesn't have interesting problems or go deep enough into topics.
+- **6.120**: Great class! Cool problems. Worth skipping if a lot of competition math experience.
+- **14.01**: Fascinating game theory topics. Loved the content. Unorganized class structure.
+- **6.101**: SO GOOD! Weekly difficult well-made interesting programming labs. Good access to office hours help, difficult yet approachable.
+- **8.02**: Decent!
+
 ### Freshman fall
 
 - **18.022**: WONDERFUL proof based lectures from Borodin, small interactive class, boring homework. Take over 18.02.
@@ -14,10 +22,4 @@ layout: default
 - **1.008**: Boring.
 - **15.A04**: Little content, met some people in the trust center.
 
-### Freshman spring
 
-- **18.06**: I love linear algebra as a topic, but this class doesn't have interesting problems or go deep enough into topics.
-- **6.120**: Great class! Cool problems. Worth skipping if a lot of competition math experience.
-- **14.01**: Fascinating game theory topics. Loved the content. Unorganized class structure.
-- **6.101**: SO GOOD! Weekly difficult well-made interesting programming labs. Good access to office hours help, difficult yet approachable.
-- **8.02**: Decent!

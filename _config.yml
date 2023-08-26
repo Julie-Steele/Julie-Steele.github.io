@@ -17,7 +17,7 @@ sass:
 
 nav:
  - name: "Home"
-   link: ""
+   link: "index"
  - name: "What I'm Up To"
    link: "what-im-up-to"
  - name: "Reflection" 
@@ -26,7 +26,7 @@ nav:
    link: "goals-and-challenges"
  - name: "Feedback"
    link: "https://forms.gle/PqbsZTjuBC7EvfEr8"
- - name: "Random"
-   link: "random"
+ - name: "Idea Dump"
+   link: "ideadump"
  - name: "Contact"
    link: "contact"
