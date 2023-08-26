@@ -14,7 +14,7 @@ title: What I'm Up To
 
 ## EDUCATION
 **Massachusetts Institute of Technology (MIT)**, Cambridge, M.A.  
-**GPA:** 4.0, Class of 2026  
+**GPA:** 5.0, Class of 2026  
 Candidate for B.S. in Artificial Intelligence and Decision Making with a minor in Economics  
 _Relevant Courses:_ Linear Algebra, Math for CS, Multivariable, Fundamentals of Programming, Intro to Data Science  
 
