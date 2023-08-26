@@ -3,6 +3,10 @@ layout: default
 
 title: What I'm Up To
 ---
+
+##just a resume rn 
+
+
 # JULIE STEELE 
 **Email:** [jssteele@mit.edu](mailto:jssteele@mit.edu)  
 **Phone:** 202 - 597 - 1569  
