@@ -1,34 +1,136 @@
-table {
-    margin: 15px 0;
-    border-collapse: collapse;
-    width: 100%;
-    padding: 0;
-}
-table tr {
-    border-top: 1px solid #cccccc;
-    background-color: white;
+@import "vars";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap'); // Adding a playful font
+
+/*
+ * Basic
+ */
+
+html {
+    height: 100%;
     margin: 0;
     padding: 0;
+    background: linear-gradient(45deg, #f3e7e9, #e3eeff); // Gradient background for a fun feel
 }
-table tr:nth-child(2n) {
-    background-color: #f8f8f8;
-}
-table tr th {
-    font-weight: bold;
-    border: 1px solid #cccccc;
-    text-align: left;
+
+body {
     margin: 0;
-    padding: 6px 13px;
+    font-family: 'Dancing Script', cursive; // Switched to a playful font
+    height: 100%;
+    cursor: url('cursor.cur'), auto;
+    transition: all 0.3s ease-in-out;
 }
-table tr td {
-    border: 1px solid #cccccc;
-    text-align: left;
+
+a {
+    text-decoration: none;
+    color: $accent;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #ff79c6; // Change color on hover for a fun effect
+    text-decoration: underline;
+    transform: scale(1.1); // Scale effect on hover
+}
+
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 10px 2px rgba(255, 179, 216, 0.3); // Added a glow
+}
+
+/*
+ * Navbar
+ */
+
+#author-name {
+    font-size: 30px;
+    color: #272727;
+    display: inline-block;
+    transition: color 0.3s;
+}
+
+#author-name:hover {
+    color: #ff79c6;
+}
+
+.navbar {
+    padding: 50px 0 50px 0;
+    transition: background-color 0.3s;
+}
+
+.navbar:hover {
+    background-color: rgba(255, 179, 216, 0.1); // Light pinkish tint on hover
+}
+
+.navbar-ul {
+    display: inline-block;
     margin: 0;
-    padding: 6px 13px;
+    padding: 5px 0 5px 0;
+    margin-left: 20px;
 }
-table tr th :first-child, table tr td :first-child {
-    margin: 0;
+
+.nav-list {
+    list-style-type: none;
+    margin: 0 5px 0 10px;
+    transition: transform 0.3s;
 }
-table tr th :last-child, table tr td :last-child {
-    margin: 0;
+
+.nav-list:hover {
+    transform: translateY(-5px); // Lift effect on hover
 }
+
+.alignable {
+    display: inline-block;
+}
+
+.pull-left {
+    @extend .alignable;
+    float: left;
+}
+
+.pull-right {
+    @extend .alignable;
+    float: right;
+}
+
+/* Divs */
+
+.container {
+    max-width: $max-width;
+    margin: auto;
+    box-shadow: 0 0 15px rgba(255, 179, 216, 0.3); // Soft glow around the container
+}
+
+.wrapper {
+    min-height: 100%;
+}
+
+/* Institute Image */
+
+#ins-logo {
+	margin: auto;
+	display: block;
+	max-height: 100px;
+	text-align: center;
+    transition: transform 0.3s;
+}
+
+#ins-logo:hover {
+    transform: scale(1.1); // Scale effect on hover
+}
+
+/* Mobile */
+
+@media (max-width: 800px) {
+    .container {
+        max-width: $med-width;
+        transition: 0.3s ease all;
+    }
+}
+
+// ... [Rest of the code remains unchanged]
+
+@import "typography";
+@import "tables";
