@@ -17,19 +17,18 @@ sass:
 
 nav:
  - name: "Home"
-   link: "index"
- - name: "Reflection" 
-   link: "reflection" 
+   link: "/index"
+ - name: "Blog" #or called entries 
+   link: "/blog"
  - name: "Goals & Challenges"
-   link: "goals-and-challenges"
+   link: "/goals-and-challenges"
  - name: "Feedback"
    link: "https://forms.gle/PqbsZTjuBC7EvfEr8"
- - name: "Idea Dump"
-   link: "ideadump"
- - name: "Contact"
-   link: "contact"
- - name: "Blog" #or called entries 
-   link: "blog"
+ - name: "Reflection" 
+   link: "/reflection"
+ - name: "Careers"
+   link: "/careers"
+  
 
 
 collections:
