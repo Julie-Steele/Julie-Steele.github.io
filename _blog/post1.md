@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Title of the Blog Post"
-date: YYYY-MM-DD
+date: 2023-10-18
 author: "Author's Name"
-image: /path/to/your/image.jpg
+image: JuliePhotoBrick.jpg
 ---
 
 # Title of the Blog Post
