@@ -30,3 +30,9 @@ nav:
    link: "ideadump"
  - name: "Contact"
    link: "contact"
+
+
+collections:
+  blog:
+    output: true
+
