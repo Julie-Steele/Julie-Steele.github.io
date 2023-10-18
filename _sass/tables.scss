@@ -42,7 +42,7 @@
         position: relative;
         margin: -10px 0 0 15px;
         float: right;
-        // removed border-radius to make the image a rectangle
+        // no border-radius to keep the image rectangular
     
         p & {
             padding: 0;
@@ -54,6 +54,7 @@
             }
         }
     }
+    
     
     img {
         text-align: center;

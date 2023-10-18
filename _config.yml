@@ -18,8 +18,6 @@ sass:
 nav:
  - name: "Home"
    link: "index"
- - name: "What I'm Up To"
-   link: "what-im-up-to"
  - name: "Reflection" 
    link: "reflection" 
  - name: "Goals & Challenges"
@@ -30,9 +28,12 @@ nav:
    link: "ideadump"
  - name: "Contact"
    link: "contact"
+ - name: "Blog" #or called entries 
+   link: "blog"
 
 
 collections:
   blog:
     output: true
+    permalink: /:collection/:path/ # or any permalink style you prefer #what does this mean 
 
