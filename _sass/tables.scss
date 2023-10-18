@@ -37,22 +37,24 @@
         font-style: italic;
     }
     .profile-picture {
-        height: $image-size;
-        width: $image-size;
+        width: 300px; /* or whatever width you prefer */
+        height: auto; /* maintains the aspect ratio */
         position: relative;
         margin: -10px 0 0 15px;
         float: right;
-        border-radius: 50%;
+        // removed border-radius to make the image a rectangle
+    
         p & {
             padding: 0;
             margin: 0;
         }
-        @media (max-width: $small-width) {
+        @media (max-width: $small-width) { /* make sure $small-width is defined somewhere in your SCSS */
             img {
                 margin-top: -5px;
             }
         }
     }
+    
     img {
         text-align: center;
         width: 100%;

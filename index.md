@@ -2,6 +2,9 @@
 layout: default
 ---
 
+_Last updated: {{ site.time | date: '%Y-%m-%d' }}_
+
+
 ## About Me
 
 <img class="profile-picture" src="JuliePhotoBrick.jpg">
