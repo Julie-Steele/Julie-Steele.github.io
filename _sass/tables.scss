@@ -37,23 +37,35 @@
         font-style: italic;
     }
     .profile-picture {
-        width: 300px; /* or whatever width you prefer */
-        height: auto; /* maintains the aspect ratio */
+        width: 100px; /* smaller width */
+        height: 50px; /* explicit height to ensure the image is rectangular */
+        object-fit: cover; /* to maintain the aspect ratio without distortion */
         position: relative;
         margin: -10px 0 0 15px;
         float: right;
-        // no border-radius to keep the image rectangular
+        border-radius: 0; /* to ensure the image is rectangular */
     
+        /* If '.profile-picture' is within a 'p' element */
         p & {
             padding: 0;
             margin: 0;
         }
+    
+        /* Adjusted media query */
         @media (max-width: $small-width) { /* make sure $small-width is defined somewhere in your SCSS */
-            img {
-                margin-top: -5px;
-            }
+            width: 50px; /* even smaller size for smaller screens */
+            height: auto; /* maintains the aspect ratio */
+            margin-top: -5px;
         }
     }
+    
+    
+        /* Adjusted media query */
+        @media (max-width: $small-width) { /* make sure $small-width is defined somewhere in your SCSS */
+            margin-top: -5px; /* moved from 'img' to here assuming '.profile-picture' is the 'img' */
+        }
+    }
+    
     
     
     img {
