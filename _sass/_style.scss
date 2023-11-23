@@ -74,6 +74,21 @@ html, body {
 .content {
     padding: 20px;
     border-radius: $border-radius;
+
+    ul, ol {
+        margin-bottom: $bullet-point-spacing; // Space below each list
+        padding-left: 20px; // Indentation for list
+
+        li {
+            margin-bottom: 5px; // Space below each list item
+
+            ul, ol {
+                margin-top: 5px; // Reduced top margin for nested lists
+                margin-bottom: 0; // Remove bottom margin for nested lists
+                padding-left: 15px; // Slightly reduced indentation for nested lists
+            }
+        }
+    }
 }
 
 // Adjust Spacing for Readability
@@ -121,7 +136,6 @@ footer {
         }
     }
 }
-
 // Rest of your variables and styles...
 
 // Content Area
@@ -138,9 +152,13 @@ footer {
 
     img {
         float: right; // Float images to the right
-        margin-left: 20px; // Add some space between the text and the image
+        margin-left: 20px; // Add space between the text and the image
         margin-bottom: 10px; // Space below the image
-        max-width: 50%; // Limit the size of the image
+        max-width: 40%; // Adjust the width of the image as needed
+    }
+
+    p, ul, ol {
+        overflow: auto; // Ensure text respects the floated image
     }
 }
 
@@ -152,4 +170,3 @@ footer {
 }
 
 // Footer, Responsive Design, etc...
-
