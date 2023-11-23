@@ -1,43 +1,28 @@
 ---
 layout: post
-title: "Title of the Blog Post"
-date: 2023-10-18
-author: "Author's Name"
-image: JuliePhotoBrick.jpg
+title: "Life is Optimal for the Proposers"
+date: 2023-11-23
+image: stablemarriage.png
 ---
 
-# Title of the Blog Post
+# Life is Optimal for the Proposers
 
-![Blog Image](/path/to/your/image.jpg)
+![Thoughts Image](stablemarriage.jpg)
 
-**Written by:** Author's Name
+## Stable Marriage Problem
 
-## Introduction
+- **Objective**: Match two sets of elements (e.g., men and women) into pairs.
+- **Preferences**: Each element ranks the opposite set in order of preference.
+- **Stable Match**: 
+  - A pair is stable if no two elements prefer each other over their current partners.
+- **A Solution Method (Gale-Shapley Algorithm)**:
+  - One group (e.g., men) proposes to their top choice.
+  - The other group (e.g., women) accepts or rejects proposals.
+  - Rejected elements propose to their next choice.
+  - Repeat aboveuntil all elements are paired.
 
-Your introductory content here.
+  Turns out, this is OPTIMAL for the proposers and PESSIMAL for the evaluators. 
 
-## Main Content
+  ## Applications 
 
-The body of your blog post goes here. You can use various markdown formatting options to structure your content, such as:
-
-- Bullet points
-- **Bold text**
-- _Italicized text_
-- [Hyperlinks](#)
-
-### Subheading 1
-
-Content for this section.
-
-### Subheading 2
-
-Content for this section.
-
-## Conclusion
-
-Your concluding remarks or summary.
-
-## Related Posts
-
-- [Related Blog Post 1](#link-to-related-blog-post-1)
-- [Related Blog Post 2](#link-to-related-blog-post-2)
+  woo
