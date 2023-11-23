@@ -1,15 +1,15 @@
-// Define Variables for Standard Styling
-$font-family: 'Arial', sans-serif; // Professional font for the rest of the site
-$primary-color: #ff69b4; // Bright pink for the nav bar
-$background-color: #000000; // Black background for the rest of the site
-$text-color: #e0e0e0; // Light text for readability
-
-// Navigation Bar Specific Variables
-$nav-font-family: 'Comic Sans MS', cursive, sans-serif; // Playful font for the nav bar
-$nav-background: #ff1493; // Deep pink nav background
-$nav-text-color: #ffffff; // White text for nav items
-$nav-hover-color: #ffff00; // Bright yellow for hover effects
-$nav-item-spacing: 10px; // Space between nav items
+// Define Variables for Easy Customization
+$font-family: 'Arial', sans-serif; // Clean and modern font
+$primary-color: #ff4081; // Pink accent color
+$background-color: #000000; // Completely black background
+$text-color: #e0e0e0; // Light text for readability on dark background
+$link-color: $primary-color; // Pink links for consistency
+$nav-background: #000000; // Black nav background for a seamless look
+$footer-background: $nav-background; // Consistent with nav background
+$border-radius: 4px; // Rounded corners for a modern look
+$line-height: 1.6; // Standard line height for readability
+$bullet-point-spacing: 1.2em; // More space around bullet points
+$paragraph-spacing: 1em; // Standard paragraph spacing
 
 // Basic Reset
 * {
@@ -22,40 +22,37 @@ html, body {
     font-family: $font-family;
     color: $text-color;
     background-color: $background-color;
-    line-height: 1.6;
+    line-height: $line-height;
 }
 
 // Navigation Bar
 .navbar {
     background: $nav-background;
-    padding: 10px 0;
+    padding: 10px 20px;
     text-align: center;
 
     #author-name {
-        color: $nav-text-color;
+        color: $primary-color;
         font-size: 24px;
-        font-family: $nav-font-family;
+        font-weight: bold;
     }
 
     #navlist {
         list-style: none;
         display: flex;
         align-items: center;
-        justify-content: center;
         margin: 0;
 
         li {
-            margin: 0 $nav-item-spacing;
-            font-family: $nav-font-family;
+            margin: 0 10px;
 
             a {
-                color: $nav-text-color;
-                font-size: 18px;
+                color: $link-color;
                 text-decoration: none;
                 transition: color 0.3s ease;
 
                 &:hover {
-                    color: $nav-hover-color;
+                    color: lighten($primary-color, 10%);
                     text-decoration: none;
                 }
             }
@@ -63,42 +60,57 @@ html, body {
     }
 }
 
-// Content Area (Kept Serious)
+// Content Area
 .container {
     padding: 20px;
     max-width: 1200px;
     margin: auto;
+    background-color: $background-color; // Ensure no side margins visually
 }
 
 .content {
-    background: #202020;
     padding: 20px;
-    border-radius: 4px;
+    border-radius: $border-radius;
 }
 
-// Footer (Kept Serious)
+// Adjust Spacing for Readability
+ul, ol {
+    padding-left: 20px;
+    margin: $bullet-point-spacing 0;
+}
+
+p {
+    margin: $paragraph-spacing 0;
+}
+
+// Footer
 footer {
-    background: #333;
+    background: $footer-background;
     text-align: center;
     padding: 10px 0;
     margin-top: 20px;
 
     a {
-        color: #ccc;
+        color: $link-color;
         text-decoration: none;
+        transition: color 0.3s ease;
 
         &:hover {
-            color: #fff;
+            color: lighten($primary-color, 10%);
         }
     }
 }
 
-// Responsive Design for Navigation Bar
+// Responsive Design
 @media (max-width: 800px) {
     .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+
         #navlist {
+            margin-top: 10px;
             flex-direction: column;
-            align-items: center;
+            align-items: flex-start;
 
             li {
                 margin: 5px 0;
@@ -106,4 +118,3 @@ footer {
         }
     }
 }
-
