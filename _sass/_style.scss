@@ -4,7 +4,7 @@ $primary-color: #ff4081; // Pink accent color
 $background-color: #000000; // Completely black background
 $text-color: #e0e0e0; // Light text for readability on dark background
 $link-color: $primary-color; // Pink links for consistency
-$nav-background: #000000; // Black nav background for a seamless look
+$nav-background: #8B0000; // Dark pink nav background for a striking look
 $footer-background: $nav-background; // Consistent with nav background
 $border-radius: 4px; // Rounded corners for a modern look
 $line-height: 1.6; // Standard line height for readability
@@ -29,12 +29,15 @@ html, body {
 .navbar {
     background: $nav-background;
     padding: 10px 20px;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
     #author-name {
         color: $primary-color;
         font-size: 24px;
         font-weight: bold;
+        margin-right: 20px;
     }
 
     #navlist {
@@ -65,7 +68,7 @@ html, body {
     padding: 20px;
     max-width: 1200px;
     margin: auto;
-    background-color: $background-color; // Ensure no side margins visually
+    background-color: $background-color;
 }
 
 .content {
@@ -118,3 +121,35 @@ footer {
         }
     }
 }
+
+// Rest of your variables and styles...
+
+// Content Area
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    background-color: $background-color;
+}
+
+.content {
+    padding: 20px;
+    border-radius: $border-radius;
+
+    img {
+        float: right; // Float images to the right
+        margin-left: 20px; // Add some space between the text and the image
+        margin-bottom: 10px; // Space below the image
+        max-width: 50%; // Limit the size of the image
+    }
+}
+
+// Clearfix to contain the floats
+.content:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+// Footer, Responsive Design, etc...
+
