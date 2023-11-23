@@ -1,269 +1,96 @@
-// @import "vars";
+// Define Variables for Easy Customization
+$font-family: 'Arial', sans-serif; // A more plain font
+$primary-color: #4a90e2; // A soft blue accent color
+$background-color: #f8f8f8; // A light background color
+$text-color: #333; // Darker text for better readability
+$link-color: #d35400; // An orange accent for links
+$nav-background: #eaeaea; // Light grey nav background
+$footer-background: $nav-background; // Same as nav background for consistency
 
-// /*
-//  * Basic
-//  */
-
-// html {
-//     height: 100%;
-//     margin: 0;
-//     padding: 0;
-// }
-// body {
-//     margin: 0;
-//     font-family: "Inconsolata";
-//     height: 100%;
-// }
-// a {
-//     text-decoration: none;
-//     color: $accent;
-// }
-// a:hover {
-//     text-decoration: underline;
-// }
-// hr {
-//     border: 0;
-//     height: 0;
-//     border-top: 1px solid rgba(0, 0, 0, 0.1);
-//     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-// }
-
-// /*
-//  * Navbar
-//  */
-
-// #author-name {
-//     font-size: 30px;
-//     color: #272727;
-//     display: inline-block;
-// }
-// .navbar {
-//     padding: 50px 0 50px 0;
-// }
-// .navbar-ul {
-//     display: inline-block;
-//     margin: 0;
-//     padding: 5px 0 5px 0;
-//     margin-left: 20px;
-// }
-// .nav-list {
-//     list-style-type: none;
-//     margin: 0 5px 0 10px;
-// }
-// .alignable {
-//     display: inline-block;
-// }
-// .pull-left {
-//     @extend .alignable;
-//     float: left;
-// }
-// .pull-right {
-//     @extend .alignable;
-//     float: right;
-// }
-
-// /* Divs */
-
-// .container {
-//     max-width: $max-width;
-//     margin: auto;
-// }
-// .wrapper {
-//     min-height: 100%;
-// }
-
-// /* Institute Image */
-
-// #ins-logo {
-// 	margin: auto;
-// 	display: block;
-// 	max-height: 100px;
-// 	text-align: center;
-// }
-
-// /* Mobile */
-
-// @media (max-width: 800px) {
-//     .container {
-//         max-width: $med-width;
-//         transition: 0.3s ease all;
-//     }
-// }
-
-// @media (max-width: 650px) {
-//     .container {
-//         max-width: 83%;
-//     }
-//     .navbar-ul {
-//         margin-top: 5px;
-//     }
-// }
-
-// @media (max-width: 500px) {
-// 	.navbar {
-// 		text-align: center;
-// 		padding: 50px 0px 0px 0px;
-// 	}
-// 	#author-name {
-// 		width: 100%;
-// 		float: none;
-// 	}
-// 	#navlist {
-// 		padding: 10px 0 10px 0;
-// 		margin: 0;
-// 		display: block;
-// 		float: none;
-// 		text-align: center;
-// 		width: 100%;
-// 	}
-// 	#navlist li.alignable {
-// 		display: inline-block;
-// 	}
-// 	#navlist li.pull-left {
-// 		float: none;
-// 	}
-// 	#navlist li.nav-list {
-// 		margin: 0;
-// 	}
-// }
-
-// @import "typography";
-// @import "tables";
-
-
-@import "vars";
-
-/*
- * Basic
- */
-
-
-
-html {
-    height: 100%;
+// Basic Reset
+* {
     margin: 0;
     padding: 0;
-}
-body {
-    margin: 0;
-    font-family: "Inconsolata";
-    height: 100%;
-
-    /* TODO fix, cursor not changing */ 
-    cursor: url('cursor.cur'), auto;	
-}
-a {
-    text-decoration: none;
-    color: $accent;
-}
-a:hover {
-    text-decoration: underline;
-}
-hr {
-    border: 0;
-    height: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
 }
 
-/*
- * Navbar
- */
-
-#author-name {
-    font-size: 30px;
-    color: #272727;
-    display: inline-block;
+html, body {
+    font-family: $font-family;
+    color: $text-color;
+    background-color: $background-color;
+    line-height: 1.6;
 }
+
+// Navigation Bar
 .navbar {
-    padding: 50px 0 50px 0;
-}
-.navbar-ul {
-    display: inline-block;
-    margin: 0;
-    padding: 5px 0 5px 0;
-    margin-left: 20px;
-}
-.nav-list {
-    list-style-type: none;
-    margin: 0 5px 0 10px;
-}
-.alignable {
-    display: inline-block;
-}
-.pull-left {
-    @extend .alignable;
-    float: left;
-}
-.pull-right {
-    @extend .alignable;
-    float: right;
+    background: $nav-background;
+    padding: 15px 0;
+    text-align: center;
+
+    #author-name {
+        color: $primary-color;
+        margin: 0;
+        font-size: 24px;
+    }
+
+    #navlist {
+        list-style: none;
+
+        li {
+            display: inline;
+            margin: 0 10px;
+
+            a {
+                color: $link-color;
+                text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
 }
 
-/* Divs */
-
+// Content Area
 .container {
-    max-width: $max-width;
+    padding: 20px;
+    max-width: 1200px;
     margin: auto;
 }
-.wrapper {
-    min-height: 100%;
+
+.content {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Institute Image */
+// Footer
+footer {
+    background: $footer-background;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
 
-#ins-logo {
-	margin: auto;
-	display: block;
-	max-height: 100px;
-	text-align: center;
-}
+    a {
+        color: $primary-color;
+        text-decoration: none;
 
-/* Mobile */
-
-@media (max-width: 800px) {
-    .container {
-        max-width: $med-width;
-        transition: 0.3s ease all;
+        &:hover {
+            text-decoration: underline;
+        }
     }
 }
 
-@media (max-width: 650px) {
-    .container {
-        max-width: 83%;
-    }
-    .navbar-ul {
-        margin-top: 5px;
+// Responsive Design
+@media (max-width: 600px) {
+    .navbar {
+        #navlist {
+            li {
+                display: block;
+                margin: 5px 0;
+            }
+        }
     }
 }
-
-@media (max-width: 500px) {
-	.navbar {
-		text-align: center;
-		padding: 50px 0px 0px 0px;
-	}
-	#author-name {
-		width: 100%;
-		float: none;
-	}
-	#navlist {
-		padding: 10px 0 10px 0;
-		margin: 0;
-		display: block;
-		float: none;
-		text-align: center;
-		width: 100%;
-	}
-	#navlist li.alignable {
-		display: inline-block;
-	}
-	#navlist li.pull-left {
-		float: none;
-	}
-	#navlist li.nav-list {
-		margin: 0;
-	}
-}
-
-@import "typography";
-@import "tables";
