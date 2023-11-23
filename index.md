@@ -13,7 +13,5 @@ Hi! I’m Julie Steele, a sophomore at MIT studying computer science, artificial
 
 Welcome to my website. Bit of a diary/tracker/public presence, we'll see!
 
-
-<img class="profile-picture" src="JuliePhotoBrick.jpg">
-<img src="DanceCollage.jpg">
-
+![Julie Photo](JuliePhotoBrick.jpg)
+![Dance Collage](DanceCollage.jpg)
