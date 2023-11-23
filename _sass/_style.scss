@@ -1,12 +1,13 @@
 // Define Variables for Easy Customization
-$font-family: 'Arial', sans-serif; // Simple and clean font
-$primary-color: #ff6b6b; // Coral accent color
-$secondary-color: #4d90fe; // Soft blue accent color
-$background-color: #f4f4f4; // A very light grey background
-$text-color: #333; // Darker text for better readability
-$link-color: $secondary-color; // Using the secondary color for links
-$nav-background: #ffffff; // White nav background for a clean look
+$font-family: 'Arial', sans-serif; // Clean and modern font
+$primary-color: #00bcd4; // Futuristic cyan accent color
+$secondary-color: #ff4081; // Vibrant pink accent for contrast
+$background-color: #1a1a1a; // Dark background for a modern feel
+$text-color: #e0e0e0; // Light text for readability on dark background
+$link-color: $secondary-color; // Vibrant links
+$nav-background: #262626; // Darker shade for nav bar
 $footer-background: $nav-background; // Consistent with nav background
+$border-radius: 4px; // Rounded corners for a modern look
 
 // Basic Reset
 * {
@@ -30,8 +31,10 @@ html, body {
 
     #author-name {
         color: $primary-color;
-        margin: 0;
-        font-size: 22px; // Slightly smaller for a cleaner look
+        font-size: 24px;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 1px; // Spacing for a more futuristic look
     }
 
     #navlist {
@@ -39,14 +42,16 @@ html, body {
 
         li {
             display: inline;
-            margin: 0 8px; // Reduced margin for a tighter look
+            margin: 0 10px;
 
             a {
                 color: $link-color;
                 text-decoration: none;
+                transition: color 0.3s ease;
 
                 &:hover {
-                    text-decoration: underline;
+                    color: $primary-color;
+                    text-decoration: none;
                 }
             }
         }
@@ -55,16 +60,16 @@ html, body {
 
 // Content Area
 .container {
-    padding: 15px; // Reduced padding for a more compact feel
+    padding: 20px;
     max-width: 1200px;
     margin: auto;
 }
 
 .content {
-    background: white;
-    padding: 15px; // Reduced padding inside content
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08); // Slightly lighter shadow
+    background: #202020; // Slightly lighter than the body for contrast
+    padding: 20px;
+    border-radius: $border-radius;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5); // Soft glow effect
 }
 
 // Footer
@@ -72,14 +77,15 @@ footer {
     background: $footer-background;
     text-align: center;
     padding: 10px 0;
-    margin-top: 15px; // Slightly less margin for a closer footer
+    margin-top: 20px;
 
     a {
-        color: $primary-color;
+        color: $link-color;
         text-decoration: none;
+        transition: color 0.3s ease;
 
         &:hover {
-            text-decoration: underline;
+            color: $primary-color;
         }
     }
 }
