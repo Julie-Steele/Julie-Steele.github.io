@@ -1,11 +1,12 @@
 // Define Variables for Easy Customization
-$font-family: 'Arial', sans-serif; // A more plain font
-$primary-color: #4a90e2; // A soft blue accent color
-$background-color: #f8f8f8; // A light background color
+$font-family: 'Arial', sans-serif; // Simple and clean font
+$primary-color: #ff6b6b; // Coral accent color
+$secondary-color: #4d90fe; // Soft blue accent color
+$background-color: #f4f4f4; // A very light grey background
 $text-color: #333; // Darker text for better readability
-$link-color: #d35400; // An orange accent for links
-$nav-background: #eaeaea; // Light grey nav background
-$footer-background: $nav-background; // Same as nav background for consistency
+$link-color: $secondary-color; // Using the secondary color for links
+$nav-background: #ffffff; // White nav background for a clean look
+$footer-background: $nav-background; // Consistent with nav background
 
 // Basic Reset
 * {
@@ -24,13 +25,13 @@ html, body {
 // Navigation Bar
 .navbar {
     background: $nav-background;
-    padding: 15px 0;
+    padding: 10px 0;
     text-align: center;
 
     #author-name {
         color: $primary-color;
         margin: 0;
-        font-size: 24px;
+        font-size: 22px; // Slightly smaller for a cleaner look
     }
 
     #navlist {
@@ -38,7 +39,7 @@ html, body {
 
         li {
             display: inline;
-            margin: 0 10px;
+            margin: 0 8px; // Reduced margin for a tighter look
 
             a {
                 color: $link-color;
@@ -54,16 +55,16 @@ html, body {
 
 // Content Area
 .container {
-    padding: 20px;
+    padding: 15px; // Reduced padding for a more compact feel
     max-width: 1200px;
     margin: auto;
 }
 
 .content {
     background: white;
-    padding: 20px;
+    padding: 15px; // Reduced padding inside content
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08); // Slightly lighter shadow
 }
 
 // Footer
@@ -71,7 +72,7 @@ footer {
     background: $footer-background;
     text-align: center;
     padding: 10px 0;
-    margin-top: 20px;
+    margin-top: 15px; // Slightly less margin for a closer footer
 
     a {
         color: $primary-color;
