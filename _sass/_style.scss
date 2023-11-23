@@ -1,13 +1,13 @@
 // Define Variables for Easy Customization
 $font-family: 'Arial', sans-serif; // Clean and modern font
-$primary-color: #00bcd4; // Futuristic cyan accent color
-$secondary-color: #ff4081; // Vibrant pink accent for contrast
-$background-color: #1a1a1a; // Dark background for a modern feel
+$primary-color: #ff4081; // Pink accent color
+$background-color: #000000; // Completely black background
 $text-color: #e0e0e0; // Light text for readability on dark background
-$link-color: $secondary-color; // Vibrant links
-$nav-background: #262626; // Darker shade for nav bar
+$link-color: $primary-color; // Pink links for consistency
+$nav-background: #000000; // Black nav background for a seamless look
 $footer-background: $nav-background; // Consistent with nav background
 $border-radius: 4px; // Rounded corners for a modern look
+$line-height: 1.8; // Increased line height for better readability
 
 // Basic Reset
 * {
@@ -20,28 +20,30 @@ html, body {
     font-family: $font-family;
     color: $text-color;
     background-color: $background-color;
-    line-height: 1.6;
+    line-height: $line-height;
 }
 
 // Navigation Bar
 .navbar {
     background: $nav-background;
-    padding: 10px 0;
-    text-align: center;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
     #author-name {
         color: $primary-color;
         font-size: 24px;
         font-weight: bold;
-        text-transform: uppercase;
-        letter-spacing: 1px; // Spacing for a more futuristic look
     }
 
     #navlist {
         list-style: none;
+        display: flex;
+        align-items: center;
+        margin: 0;
 
         li {
-            display: inline;
             margin: 0 10px;
 
             a {
@@ -50,7 +52,7 @@ html, body {
                 transition: color 0.3s ease;
 
                 &:hover {
-                    color: $primary-color;
+                    color: lighten($primary-color, 10%);
                     text-decoration: none;
                 }
             }
@@ -63,13 +65,13 @@ html, body {
     padding: 20px;
     max-width: 1200px;
     margin: auto;
+    background-color: $background-color; // Ensure no side margins visually
 }
 
 .content {
-    background: #202020; // Slightly lighter than the body for contrast
+    background: #202020; // Slightly lighter for contrast
     padding: 20px;
     border-radius: $border-radius;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5); // Soft glow effect
 }
 
 // Footer
@@ -85,17 +87,23 @@ footer {
         transition: color 0.3s ease;
 
         &:hover {
-            color: $primary-color;
+            color: lighten($primary-color, 10%);
         }
     }
 }
 
 // Responsive Design
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+
         #navlist {
+            margin-top: 10px;
+            flex-direction: column;
+            align-items: flex-start;
+
             li {
-                display: block;
                 margin: 5px 0;
             }
         }
