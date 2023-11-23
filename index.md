@@ -15,7 +15,8 @@ _Last updated: {{ site.time | date: '%Y-%m-%d' }}_
         Welcome to my website. Bit of a diary/tracker/public presence, we'll see!
     </div>
     <div style="flex: 1; min-width: 50%; text-align: center;">
-        <img src="JuliePhotoBrick.jpg" alt="Julie Photo" style="max-width: 25%; height: auto;" />
-        <img src="DanceCollage.jpg" alt="Dance Collage" style="max-width: 25%; height: auto;" />
+        <img src="DanceCollage.jpg" alt="Dance Collage" style="max-width: 30%; height: auto;" />
+        <img src="JuliePhotoBrick.jpg" alt="Julie Photo" style="max-width: 70%; height: auto;" />
+       
     </div>
 </div>

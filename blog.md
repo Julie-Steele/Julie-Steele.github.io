@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Blog
+title: Thoughts
 ---
 
-# Blog Posts
+# Thoughts Posts
 
-{% for post in site.blog %}
+{% for post in site.Thoughts %}
 <div style="display: flex; align-items: start;">
     <div style="flex-grow: 1;">
         <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
