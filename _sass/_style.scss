@@ -36,8 +36,8 @@ html, body {
     #author-name {
         color: $primary-color;
         font-size: 24px;
-        font-weight: bold;
-        margin-right: 20px;
+        font-weight: bold; // Emphasize with bold font
+        // Remove styles related to link appearance if they exist
     }
 
     #navlist {
