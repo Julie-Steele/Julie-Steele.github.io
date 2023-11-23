@@ -4,19 +4,16 @@ layout: default
 
 _Last updated: {{ site.time | date: '%Y-%m-%d' }}_
 
-<div style="display: flex; flex-wrap: wrap; align-items: flex-start;">
-    <div style="flex: 1; min-width: 50%;">
-        <h2>About Me</h2>
+## About Me
 
-        AAA HOW DID U FIND THIS WORK IN PROGRESS 
+AAA HOW DID U FIND THIS WORK IN PROGRESS 
 
-        Hi! I’m Julie Steele, a sophomore at MIT studying computer science, artificial intelligence, and econ. My current research interests are in machine learning, probabilistic programming, and program synthesis. I'm most passionate about mitigating risks that will come with AI. I also love math problems, improv comedy, and all sorts of dancing. 
+Hi! I’m Julie Steele, a sophomore at MIT studying computer science, artificial intelligence, and econ. My current research interests are in machine learning, probabilistic programming, and program synthesis. I'm most passionate about mitigating risks that will come with AI. I also love math problems, improv comedy, and all sorts of dancing. 
 
-        Welcome to my website. Bit of a diary/tracker/public presence, we'll see!
-    </div>
-    <div style="flex: 1; min-width: 50%; text-align: center;">
-        <img src="JuliePhotoBrick.jpg" alt="Julie Photo" style="max-width: 25%; height: auto;" />
-        <img src="DanceCollage.jpg" alt="Dance Collage" style="max-width: 50%; height: auto;" />
-       
-    </div>
-</div>
+![Profile Image](URL_to_Profile_Image)
+
+...
+
+Welcome to my website. Bit of a diary/tracker/public presence, we'll see!
+
+![Dance Collage](URL_to_Dance_Collage)
