@@ -1,11 +1,11 @@
 // Define Variables for Easy Customization
-$font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; // Modern and widely used font
-$primary-color: #ff6e7f; // Coral pink accent color
+$font-family: 'Arial', sans-serif; // Clean and modern font
+$primary-color: #ff4081; // Pink accent color
 $background-color: #000000; // Completely black background
 $text-color: #e0e0e0; // Light text for readability on dark background
-$link-color: $primary-color; // Consistent pink links
+$link-color: $primary-color; // Pink links for consistency
 $nav-background: #8B0000; // Dark pink nav background for a striking look
-$footer-background: $nav-background; // Matching nav background
+$footer-background: $nav-background; // Consistent with nav background
 $border-radius: 4px; // Rounded corners for a modern look
 $line-height: 1.6; // Standard line height for readability
 $bullet-point-spacing: 1.2em; // More space around bullet points
@@ -37,6 +37,7 @@ html, body {
         color: $primary-color;
         font-size: 24px;
         font-weight: bold; // Emphasize with bold font
+        // Remove styles related to link appearance if they exist
     }
 
     #navlist {
@@ -135,6 +136,31 @@ footer {
         }
     }
 }
+// Rest of your variables and styles...
+
+// Content Area
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    background-color: $background-color;
+}
+
+// .content {
+//     padding: 20px;
+//     border-radius: $border-radius;
+
+//     img {
+//         float: right; // Float images to the right
+//         margin-left: 20px; // Add space between the text and the image
+//         margin-bottom: 10px; // Space below the image
+//         max-width: 40%; // Adjust the width of the image as needed
+//     }
+
+//     p, ul, ol {
+//         overflow: auto; // Ensure text respects the floated image
+//     }
+// }
 
 // Clearfix to contain the floats
 .content:after {
@@ -143,16 +169,4 @@ footer {
     clear: both;
 }
 
-// Additional Styles for Images in Content Area
-.container .content {
-    img {
-        float: right; // Float images to the right
-        margin-left: 20px; // Add space between the text and the image
-        margin-bottom: 10px; // Space below the image
-        max-width: 40%; // Adjust the width of the image as needed
-    }
-
-    p, ul, ol {
-        overflow: auto; // Ensure text respects the floated image
-    }
-}
+// Footer, Responsive Design, etc...
