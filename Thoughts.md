@@ -5,7 +5,6 @@ title: Thoughts
 
 # Thoughts
 
-{% for post in site.thoughts %}
 <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 20px;">
     {% for post in site.thoughts %}
     <div style="border: 1px solid #ddd; padding: 10px; box-sizing: border-box;">
