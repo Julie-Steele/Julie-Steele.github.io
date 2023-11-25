@@ -11,8 +11,10 @@ layout: default
 
 ## Current Ongoing
 
+- Donating at least 10% income (https://www.givingwhatwecan.org/)
 - Phone locked to max 30 mins YouTube+TikTok and max 20 mins Instagram
   - Going great! Highly recommend
+- No silent elevator rides 
 - Will accept challenges of 10+ minutes of silent staring inspired by artist [Marina Abramović](https://www.moma.org/learn/moma_learning/marina-abramovic-marina-abramovic-the-artist-is-present-2010/)
   - Boring and deep
 
