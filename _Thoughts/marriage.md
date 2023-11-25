@@ -7,22 +7,16 @@ image: stablemarriage.png
 
 # Life is Optimal for the Proposers
 
-![Thoughts Image](../_imgs/stablemarriage.png)
+![Thoughts Image](../imgs/stablemarriage.png)
 
-## Stable Marriage Problem
+## Stable Marriage Problem Background
 
-- **Objective**: Match two sets of elements (e.g., men and women) into pairs.
-- **Preferences**: Each element ranks the opposite set in order of preference.
-- **Stable Match**: 
-  - A pair is stable if no two elements prefer each other over their current partners.
-- **A Solution Method (Gale-Shapley Algorithm)**:
-  - One group (e.g., men) proposes to their top choice.
-  - The other group (e.g., women) accepts or rejects proposals.
-  - Rejected elements propose to their next choice.
-  - Repeat above until all elements are paired.
+- **Background on the Stable Marriage Problem / Algorithm** : https://www.youtube.com/watch?v=Qcv1IqHWAzg 
+- **TLDR explanation of problem**: Marriage problem: find a way to pair up two groups of men and women, where each person has a ranked order preference from the other group, and there are no **unstable pairings**. An unstable pairing is a pair that both would prefer to leave their couple to be with eachother.
+- **TLDR explanation of algorithm**: One algorithm to solve this problem is Gale-Shapley: on each day, all single men propose to their top choice left, all women pick their favorite currently proposing to them to couple up with, the rest of the men are single that night. Repeat this until everyone is paired. This surprisingly causes optimal pairings for all men (the proposers), and pessimal pairings for all women(the accepters/rejectors) (best and worst possible to be stable). Fun math problems: prove this algorithm 1. creates a stable pairings, 2. is optimal for men, pessimal for women. 
 
-  Turns out, this is OPTIMAL for the proposers and PESSIMAL for the evaluators. 
+## Application to Life
 
-  ## Applications 
 
-  woo
+
+
