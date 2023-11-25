@@ -2,7 +2,7 @@
 layout: post
 title: "To Live under a Rock"
 date: 2023-11-26
-image: Rock.webp
+image: ...imgs/Rock.webp
 ---
 
 # To Live under a Rock 
