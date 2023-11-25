@@ -3,9 +3,9 @@ layout: default
 title: Thoughts
 ---
 
-# Thoughts Posts
+# Thoughts
 
-{% for post in site.Thoughts %}
+{% for post in site.thoughts %}
 <div style="display: flex; align-items: start;">
     <div style="flex-grow: 1;">
         <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
