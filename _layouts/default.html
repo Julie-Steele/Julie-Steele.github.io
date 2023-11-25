@@ -78,9 +78,14 @@
 
 
         {% if page.image %}
-            <div style="text-align: center;">
-                <img src=ShortDC.jpg alt="{{ page.title }}" style="max-width: 100%; height: auto;">
-            </div>
+        <!-- Debug: Print the page.image value -->
+        <p>Debug: Image path is "{{ page.image }}"</p>
+    
+        <div style="text-align: center;">
+            <img src="{{ page.image }}" alt="{{ page.title }}" style="max-width: 100%; height: auto;">
+        </div>
+        {% else %}
+        <p>Debug: No image found for this page.</p>
         {% endif %}
         
         
