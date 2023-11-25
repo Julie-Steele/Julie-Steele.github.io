@@ -19,7 +19,7 @@ nav:
  - name: "Home"
    link: "/index"
  - name: "Thoughts" #or called entries 
-   link: "/Thoughts"
+   link: "/thoughts"
  - name: "Goals & Challenges"
    link: "/goals-and-challenges"
  - name: "Feedback"
