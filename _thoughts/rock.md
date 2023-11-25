@@ -7,12 +7,10 @@ image: ../imgs/Rock.webp
 
 # To Live under a Rock 
 
-![Rock](.../imgs/Rock.webp)
-
-Oh my god they don't know about (insert music artist). They literally live under a rock. 
+Oh my god they don't know about Paramore. They literally live under a rock. 
 
 Yes, they do. And it's not pleasant. 
 
-Their home is infested with bugs, squirming out anytime they open the roof to enter. 
+Their home is infested with bugs, squirming out anytime they need to open the roof. 
 
 
