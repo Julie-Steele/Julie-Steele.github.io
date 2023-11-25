@@ -13,7 +13,7 @@ title: Thoughts
     </div>
     <div>
         <a href="{{ post.url }}">
-            <img src="{{ post.image }}" alt="{{ post.title }} Image" style="max-width:100px; max-height:100px;" />
+            <img src="{{ site.baseurl }}{{ post.image }}" alt="{{ post.title }} Image" style="max-width:100px; max-height:100px;" />
         </a>
     </div>
 </div>
