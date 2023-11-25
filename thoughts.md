@@ -3,7 +3,7 @@ layout: default
 title: Thoughts
 ---
 
-# Thoughts
+# Thoughts Posts
 
 {% for post in site.Thoughts %}
 <div style="display: flex; align-items: start;">
