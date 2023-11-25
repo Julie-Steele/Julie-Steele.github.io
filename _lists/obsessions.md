@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Classes" 
+title: "Obsessions" 
 image: ../imgs/art.webp
 ---
 
