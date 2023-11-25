@@ -7,8 +7,6 @@ image: ../imgs/stablemarriage.png
 
 # Life is Optimal for the Proposers
 
-![Thoughts Image](ShortDC.jpg)
-
 ## Stable Marriage Problem Background
 
 - **Background on the Stable Marriage Problem / Algorithm** : https://www.youtube.com/watch?v=Qcv1IqHWAzg (actually watch b4 read!)
