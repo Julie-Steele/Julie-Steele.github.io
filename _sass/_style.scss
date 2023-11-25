@@ -1,15 +1,15 @@
 // Define Variables for Easy Customization
 $font-family: 'Arial', sans-serif; // Clean and modern font
-$primary-color: #ff4081; // Vibrant pink accent color
-$background-color: #000000; // Solid black background for contrast
-$text-color: #e0e0e0; // Light grey text for readability
-$link-color: $primary-color; // Pink links for visual consistency
-$nav-background: #8B0000; // Deep red nav background for a bold look
-$footer-background: $nav-background; // Match the nav for uniformity
-$border-radius: 4px; // Smooth rounded corners for a friendly feel
-$line-height: 1.6; // Comfortable line height for easier reading
-$bullet-point-spacing: 0.8em; // Closer bullet points for a tidy look
-$paragraph-spacing: 1.2em; // Slightly larger paragraph spacing for clarity
+$primary-color: #ff4081; // Pink accent color
+$background-color: #000000; // Completely black background
+$text-color: #e0e0e0; // Light text for readability on dark background
+$link-color: $primary-color; // Pink links for consistency
+$nav-background: #8B0000; // Dark pink nav background for a striking look
+$footer-background: $nav-background; // Consistent with nav background
+$border-radius: 4px; // Rounded corners for a modern look
+$line-height: 1.6; // Standard line height for readability
+$bullet-point-spacing: 1.2em; // More space around bullet points
+$paragraph-spacing: 1em; // Standard paragraph spacing
 
 // Basic Reset
 * {
@@ -32,7 +32,35 @@ html, body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    // ... other styles ...
+
+    #author-name {
+        color: $primary-color;
+        font-size: 24px;
+        font-weight: bold; // Emphasize with bold font
+        // Remove styles related to link appearance if they exist
+    }
+
+    #navlist {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        margin: 0;
+
+        li {
+            margin: 0 10px;
+
+            a {
+                color: $link-color;
+                text-decoration: none;
+                transition: color 0.3s ease;
+
+                &:hover {
+                    color: lighten($primary-color, 10%);
+                    text-decoration: none;
+                }
+            }
+        }
+    }
 }
 
 // Content Area
@@ -48,33 +76,97 @@ html, body {
     border-radius: $border-radius;
 
     ul, ol {
-        margin-bottom: $bullet-point-spacing; // Improved spacing for lists
-        padding-left: 20px;
+        margin-bottom: $bullet-point-spacing; // Space below each list
+        padding-left: 20px; // Indentation for list
 
         li {
-            margin-bottom: 0.4em; // Reduced space below each list item
+            margin-bottom: 5px; // Space below each list item
 
             ul, ol {
-                margin-top: 0.4em; // Reduced space for nested lists
-                margin-bottom: 0;
-                padding-left: 15px;
+                margin-top: 5px; // Reduced top margin for nested lists
+                margin-bottom: 0; // Remove bottom margin for nested lists
+                padding-left: 15px; // Slightly reduced indentation for nested lists
             }
         }
     }
+}
 
-    p {
-        margin: $paragraph-spacing 0;
+// Adjust Spacing for Readability
+ul, ol {
+    padding-left: 20px;
+    margin: $bullet-point-spacing 0;
+}
+
+p {
+    margin: $paragraph-spacing 0;
+}
+
+// Footer
+footer {
+    background: $footer-background;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+
+    a {
+        color: $link-color;
+        text-decoration: none;
+        transition: color 0.3s ease;
+
+        &:hover {
+            color: lighten($primary-color, 10%);
+        }
     }
 }
 
-// Footer and Responsive Design Styles
-// ... existing styles ...
+// Responsive Design
+@media (max-width: 800px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
 
-// Clearfix for floating elements
+        #navlist {
+            margin-top: 10px;
+            flex-direction: column;
+            align-items: flex-start;
+
+            li {
+                margin: 5px 0;
+            }
+        }
+    }
+}
+// Rest of your variables and styles...
+
+// Content Area
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    background-color: $background-color;
+}
+
+// .content {
+//     padding: 20px;
+//     border-radius: $border-radius;
+
+//     img {
+//         float: right; // Float images to the right
+//         margin-left: 20px; // Add space between the text and the image
+//         margin-bottom: 10px; // Space below the image
+//         max-width: 40%; // Adjust the width of the image as needed
+//     }
+
+//     p, ul, ol {
+//         overflow: auto; // Ensure text respects the floated image
+//     }
+// }
+
+// Clearfix to contain the floats
 .content:after {
     content: "";
     display: table;
     clear: both;
 }
 
-// Additional styles as needed...
+// Footer, Responsive Design, etc...
