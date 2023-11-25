@@ -1,6 +1,6 @@
 ---
 layout: default
-is_careers: true
+is_Apply: true
 ---
 
 ## Open Positions
