@@ -2,12 +2,12 @@
 layout: post
 title: "Life is Optimal for the Proposers"
 date: 2023-11-23
-image: _imgs/stablemarriage.png
+image: ../_imgs/stablemarriage.png
 ---
 
 # Life is Optimal for the Proposers
 
-![Thoughts Image](_imgs/stablemarriage.png)
+![Thoughts Image](../_imgs/stablemarriage.png)
 
 ## Stable Marriage Problem
 
