@@ -7,7 +7,7 @@ image: ../imgs/stablemarriage.png
 
 # Life is Optimal for the Proposers
 
-![Thoughts Image](image)
+![Thoughts Image](../imgs/stablemarriage.png)
 
 ## Stable Marriage Problem Background
 
@@ -22,7 +22,7 @@ image: ../imgs/stablemarriage.png
 - There's a class of people / exciting opportunities that could happen, won't reach out to you (maybe it's a fun event idea that just requires a little activaiton energy), but would happily accept if you reached out!
 - There's no way that "Going with the flow" and being the acceptor/rejector creates the best situation. You can act!
   - As an analogy, actively picking fish has to be better than letting whatever fish (people, events) flop onto your rod. 
-- Genuine proposals come off well! Embarrasment is never too bad
+- Genuine proposals come off well! Embarrassment is never too bad
 - Possible mistakes in this post: 
   - maybe life usually isn't anything like the Gale Shapely algorithm. 
 
