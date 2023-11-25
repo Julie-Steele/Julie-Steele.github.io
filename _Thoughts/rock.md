@@ -2,12 +2,12 @@
 layout: post
 title: "To Live under a Rock"
 date: 2023-11-26
-image: _imgs/Rock.webp
+image: Rock.webp
 ---
 
 # To Live under a Rock 
 
-![Rock](_imgs/Rock.webp)
+![Rock](.../imgs/Rock.webp)
 
 Oh my god they don't know about (insert music artist). They literally live under a rock. 
 
