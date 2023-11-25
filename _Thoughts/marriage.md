@@ -2,12 +2,12 @@
 layout: post
 title: "Life is Optimal for the Proposers: LifeMath Part 1"
 date: 2023-11-23
-image: imgs/stablemarriage.png
+image: ../imgs/stablemarriage.png
 ---
 
 # Life is Optimal for the Proposers
 
-![Thoughts Image](../imgs/stablemarriage.png)
+![Thoughts Image](image)
 
 ## Stable Marriage Problem Background
 
