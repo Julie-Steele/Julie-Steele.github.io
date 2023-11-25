@@ -2,7 +2,7 @@
 layout: post
 title: "Life is Optimal for the Proposers: LifeMath Part 1"
 date: 2023-11-23
-image: stablemarriage.png
+image: imgs/stablemarriage.png
 ---
 
 # Life is Optimal for the Proposers
