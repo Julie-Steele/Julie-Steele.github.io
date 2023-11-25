@@ -2,12 +2,12 @@
 layout: post
 title: "Life is Optimal for the Proposers"
 date: 2023-11-23
-image: stablemarriage.png
+image: _imgs/stablemarriage.png
 ---
 
 # Life is Optimal for the Proposers
 
-![Thoughts Image](stablemarriage.jpg)
+![Thoughts Image](_imgs/stablemarriage.png)
 
 ## Stable Marriage Problem
 
@@ -19,7 +19,7 @@ image: stablemarriage.png
   - One group (e.g., men) proposes to their top choice.
   - The other group (e.g., women) accepts or rejects proposals.
   - Rejected elements propose to their next choice.
-  - Repeat aboveuntil all elements are paired.
+  - Repeat above until all elements are paired.
 
   Turns out, this is OPTIMAL for the proposers and PESSIMAL for the evaluators. 
 

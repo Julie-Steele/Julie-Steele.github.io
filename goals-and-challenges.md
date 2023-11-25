@@ -18,6 +18,8 @@ layout: default
 
 ## Past Challenges
 
+- Never tell anyone anything that happens to me (except work related or emergencies), no photos, for 1 week (started 7/10) SUCCESS as a test of if I only do crazy things / creative learning things for the story
+  - Can't say much, but was refreshing and would do again
 - Pointing north on the hour every hour ish for 1 week (started 3/12) to become better at directions SUCCESS
   - Arghh this is so hard 
 - Prove everything assumed in my Linear class (started 2/6) SUCCESS (most)
