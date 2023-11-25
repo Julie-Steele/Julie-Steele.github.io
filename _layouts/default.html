@@ -74,13 +74,16 @@
             </ul>
         </div>
         <div style="clear:both"></div>
+        <hr>
+
+        
         {% if page.image %}
             <div style="text-align: center;">
                 <img src="{{ page.image }}" alt="{{ page.title }}" style="max-width: 100%; height: auto;">
             </div>
         {% endif %}
         
-        <hr>
+        
         {% if page.is_contact == true %}
             <div class="container content contact">
         {% else %}

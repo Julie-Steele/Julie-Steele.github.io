@@ -13,7 +13,9 @@ title: Thoughts
     </div>
     <div>
         <a href="{{ post.url }}">
-            <img src="{{ '/imgs/' | append: post.image }}" alt="{{ post.title }} Image" style="max-width:100px; max-height:100px;" />
+            <img src="{{ post.image }}" alt="{{ post.title }} Image" style="max-width:100px; max-height:100px;" />
+
+            <!-- <img src="{{ '/imgs/' | append: post.image }}" alt="{{ post.title }} Image" style="max-width:100px; max-height:100px;" /> -->
         </a>
     </div>
 </div>
