@@ -1,8 +1,10 @@
 ---
-layout: default
+layout: post
+title: "Classes" 
+image: ../imgs/stablemarriage.png
 ---
 
-## Reflection on classes
+## Reflection on Classes
 
 ### Freshman spring
 

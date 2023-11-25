@@ -7,7 +7,7 @@ image: ../imgs/stablemarriage.png
 
 # Life is Optimal for the Proposers
 
-![Thoughts Image](../imgs/stablemarriage.png)
+![Thoughts Image](/imgs/stablemarriage.png)
 
 ## Stable Marriage Problem Background
 
