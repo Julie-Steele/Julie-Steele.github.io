@@ -22,10 +22,10 @@ nav:
    link: "/thoughts"
  - name: "Goals & Challenges"
    link: "/goals-and-challenges"
+ - name: "Lists"
+   link: "/lists"
  - name: "Feedback"
    link: "https://forms.gle/PqbsZTjuBC7EvfEr8"
- - name: "Reflection" 
-   link: "/reflection"
  - name: "Apply"
    link: "/apply"
   
@@ -33,6 +33,9 @@ nav:
 
 collections:
   thoughts:
+    output: true
+    permalink: /:collection/:path/ # or any permalink style you prefer #what does this mean 
+  lists:
     output: true
     permalink: /:collection/:path/ # or any permalink style you prefer #what does this mean 
 
