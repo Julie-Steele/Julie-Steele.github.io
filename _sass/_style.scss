@@ -146,21 +146,21 @@ footer {
     background-color: $background-color;
 }
 
-.content {
-    padding: 20px;
-    border-radius: $border-radius;
+// .content {
+//     padding: 20px;
+//     border-radius: $border-radius;
 
-    img {
-        float: right; // Float images to the right
-        margin-left: 20px; // Add space between the text and the image
-        margin-bottom: 10px; // Space below the image
-        max-width: 40%; // Adjust the width of the image as needed
-    }
+//     img {
+//         float: right; // Float images to the right
+//         margin-left: 20px; // Add space between the text and the image
+//         margin-bottom: 10px; // Space below the image
+//         max-width: 40%; // Adjust the width of the image as needed
+//     }
 
-    p, ul, ol {
-        overflow: auto; // Ensure text respects the floated image
-    }
-}
+//     p, ul, ol {
+//         overflow: auto; // Ensure text respects the floated image
+//     }
+// }
 
 // Clearfix to contain the floats
 .content:after {
