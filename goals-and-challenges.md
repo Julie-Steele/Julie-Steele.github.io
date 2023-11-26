@@ -8,7 +8,7 @@ layout: default
 
 - 2 hours of research/day for 1 week (11/19)
 - Run every other day for 2 weeks (11/18)
-  - Running at the front is worlds different from the back mentally for me for some reason
+  - Running at the front of a group is mentally SO much better than me for some reason than the back. I'm interested in conquering the running mental game. I am failing now, still find running really hard. 
 - Must touch phone for 5 Mississippi before clicking on for 1 week (11/26)
   - arghhh the dopamine
 

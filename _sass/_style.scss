@@ -12,6 +12,7 @@ $border-radius: 4px; // Rounded corners for a modern look
 $line-height: 1.6; // Standard line height for readability
 $bullet-point-spacing: 1.2em; // More space around bullet points
 $paragraph-spacing: 1em; // Standard paragraph spacing
+$custom-cursor: url('Cursor-1.cur'), auto;
 
 // Basic Reset
 * {
@@ -25,6 +26,11 @@ html, body {
     color: $text-color;
     background-color: $background-color;
     line-height: $line-height;
+    cursor: $custom-cursor
+}
+
+button {
+    cursor: $custom-cursor
 }
 
 // Navigation Bar
