@@ -19,8 +19,7 @@ layout: default
 - Phone locked to max 30 mins YouTube+TikTok and max 20 mins Instagram (for over a year now I think!)
   - Going great! Highly recommend. Have someone else set the password
 - Improving my singing! Doing next sing and random acapella with Shreya
-- Will accept challenges of 10+ minutes of silent staring inspired by artist [Marina Abramović](https://www.moma.org/learn/moma_learning/marina-abramovic-marina-abramovic-the-artist-is-present-2010/)
-  - Boring and deep
+
 
 ## Past Challenges
 
