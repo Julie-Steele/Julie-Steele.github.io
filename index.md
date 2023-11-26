@@ -52,7 +52,7 @@ _Last updated: {{ site.time | date: '%Y-%m-%d' }}_
 
 <div style="text-align: center;">
     <img src="ShortDC.jpg" alt="Dance Collage" style="max-width: 100%; height: auto;" />
-    <img src="dragoncurve.webp" alt="Dragon" style="display: block; width: auto; max-height: 50%; margin-left: auto; margin-right: auto;" />
+    <img src="dragoncurve.webp" alt="Dragon" style="display: block; max-width: 30%; max-height: 50%; margin-left: auto; margin-right: auto;" />
 
 </div>
 
