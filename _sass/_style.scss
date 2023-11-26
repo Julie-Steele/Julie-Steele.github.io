@@ -1,82 +1,166 @@
----
-layout: default
----
+// Define Variables for Easy Customization
+$random-color: rgb(random(255), random(255), random(255));
 
-<style>
-    /* Common style for both web and mobile */
-    .about-container {
+$font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; // Modern and widely used font
+$primary-color: #ff6e7f; // Coral pink accent color
+$background-color: #000000; //$random-color;// #000000; // Completely black background
+$text-color: #e0e0e0; // Light text for readability on dark background
+$link-color: $primary-color; // Consistent pink links
+$nav-background: #000000; // Dark pink nav background for a striking look
+$footer-background: $nav-background; // Matching nav background
+$border-radius: 4px; // Rounded corners for a modern look
+$line-height: 1.6; // Standard line height for readability
+$bullet-point-spacing: 1.2em; // More space around bullet points
+$paragraph-spacing: 1em; // Standard paragraph spacing
+$custom-cursor: url('Cursor-1.cur'), auto;
+
+// Basic Reset
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: $font-family;
+    color: $text-color;
+    background-color: $background-color;
+    line-height: $line-height;
+    cursor: $custom-cursor
+}
+
+button {
+    cursor: $custom-cursor
+}
+
+// Navigation Bar
+.navbar {
+    background: $nav-background;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    #author-name {
+        color: $primary-color;
+        font-size: 24px;
+        font-weight: bold; // Emphasize with bold font
+    }
+
+    #navlist {
+        list-style: none;
         display: flex;
-        flex-wrap: wrap;
+        align-items: center;
+        margin: 0;
+
+        li {
+            margin: 0 10px;
+
+            a {
+                color: $link-color;
+                text-decoration: none;
+                transition: color 0.3s ease;
+
+                &:hover {
+                    color: lighten($primary-color, 10%);
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+// Content Area
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    background-color: $background-color;
+}
+
+.content {
+    padding: 20px;
+    border-radius: $border-radius;
+
+    ul, ol {
+        margin-bottom: $bullet-point-spacing; // Space below each list
+        padding-left: 20px; // Indentation for list
+
+        li {
+            margin-bottom: 5px; // Space below each list item
+
+            ul, ol {
+                margin-top: 5px; // Reduced top margin for nested lists
+                margin-bottom: 0; // Remove bottom margin for nested lists
+                padding-left: 15px; // Slightly reduced indentation for nested lists
+            }
+        }
+    }
+}
+
+// Adjust Spacing for Readability
+ul, ol {
+    padding-left: 20px;
+    margin: $bullet-point-spacing 0;
+}
+
+p {
+    margin: $paragraph-spacing 0;
+}
+
+// Footer
+footer {
+    background: $footer-background;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+
+    a {
+        color: $link-color;
+        text-decoration: none;
+        transition: color 0.3s ease;
+
+        &:hover {
+            color: lighten($primary-color, 10%);
+        }
+    }
+}
+
+// Responsive Design
+@media (max-width: 800px) {
+    .navbar {
+        flex-direction: column;
         align-items: flex-start;
-    }
 
-    .about-text {
-        flex: 3;
-    }
-
-    .about-image {
-        flex: 1;
-        text-align: right;
-        padding-left: 20px;
-    }
-
-    .about-image img {
-        /* Smaller profile image for web */
-        max-width: 60%; /* Reduced from 70% */
-        height: auto;
-    }
-
-    /* Mobile specific styles */
-    @media screen and (max-width: 768px) {
-        .about-container {
+        #navlist {
+            margin-top: 10px;
             flex-direction: column;
-        }
+            align-items: flex-start;
 
-        .about-text, .about-image {
-            flex: none;
-            width: 100%;
-            text-align: center;
-            padding: 0;
-        }
-
-        .about-image img {
-            /* Even smaller profile image for mobile */
-            max-width: 50%;
+            li {
+                margin: 5px 0;
+            }
         }
     }
+}
 
-    /* Adjusting the size of the fractal for both web and mobile */
-    .fractal-image {
-        max-width: 80%; /* Smaller fractal */
-        height: auto;
+// Clearfix to contain the floats
+.content:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+// Additional Styles for Images in Content Area
+.container .content {
+    img {
+        float: right; // Float images to the right
+        margin-left: 20px; // Add space between the text and the image
+        margin-bottom: 10px; // Space below the image
+        max-width: 40%; // Adjust the width of the image as needed
     }
 
-    /* Making the dance collage (DC) larger on mobile */
-    @media screen and (max-width: 768px) {
-        .dance-collage-image {
-            max-width: 110%; /* Larger on mobile */
-            height: auto;
-        }
+    p, ul, ol {
+        overflow: auto; // Ensure text respects the floated image
     }
-</style>
-
-_Last updated: {{ site.time | date: '%Y-%m-%d' }}_
-
-<div class="about-container">
-    <div class="about-text">
-        <h2>About Me</h2>
-        <p>Hi! I’m Julie Steele, MIT '26 from D.C. studying computer science, artificial intelligence, and econ. My current research interests are in machine learning, probabilistic programming, and program synthesis. I'm most passionate about helping the world and mitigating risks that will come with AI. I also love math problems, improv comedy, and all sorts of dancing.</p>
-        <p>Welcome to my website. Bit of a diary/tracker/public presence, we'll see! The goal is to accountably push myself, and share random ideas so please reach out if anything resonates.</p>
-        <p>I would love if you filled out <a href="https://docs.google.com/forms/d/e/1FAIpQLSddQWnSDbBhDqUNFeZpGEZgj41F8_234N7DYq_GpTAW-dN52g/viewform">my feedback form</a>.</p>
-        <p><a href="https://julie-steele.github.io/apply">Contact</a></p>
-        <p>Upcoming: accomplishments and failures page, more cs content, and more thoughts posts</p>
-    </div>
-    <div class="about-image">
-        <img src="JuliePhotoBrick.jpg" alt="Profile Image" />
-    </div>
-</div>
-
-<div style="text-align: center;">
-    <img src="ShortDC.jpg" alt="Dance Collage" class="dance-collage-image" />
-    <img src="dragoncurve.webp" alt="Dragon" class="fractal-image" />
-</div>
+}
