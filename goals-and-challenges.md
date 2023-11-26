@@ -23,10 +23,11 @@ layout: default
 
 ## Past Challenges
 
+- Try out for as many clubs as possible (rejection therapy) SUCCESS (did 4 dance groups, 2 acapella groups, 1 frat)
+  - 3/7 success rate
 - Never tell anyone anything that happens to me (except work related or emergencies), no photos, for 1 week (started 7/10) COMPLETED as a test of if I only do crazy things / creative learning things for the story
   - Can't say much, but was refreshing and would do again
 - Achieve Eric's love
-  - Success
 - Fully track time for 1 week
   - Very interesting! Recommend
 - Pointing north whenever I remember to for 1 week (started 3/12) to become better at directions COMPLETED
