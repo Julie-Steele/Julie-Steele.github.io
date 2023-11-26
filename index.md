@@ -8,17 +8,19 @@ layout: default
             flex-direction: column;
         }
 
-        .about-text, .about-image {
-            flex: none;
+        .about-image, .about-text {
             width: 100%;
             text-align: center;
-            padding: 0;
         }
 
         .about-image img {
-            max-width: 30%;  /* Adjust the max-width as needed */
+            max-width: 30%; /* Smaller image */
             height: auto;
-            margin: 0 auto; /* Center the image */
+            margin-bottom: 20px; /* Adds space between the image and text */
+        }
+
+        .about-text {
+            padding: 0 10px; /* Adds padding around the text */
         }
     }
 </style>
@@ -28,6 +30,9 @@ _Last updated: {{ site.time | date: '%Y-%m-%d' }}_
 
 <div class="about-container" style="display: flex; flex-wrap: wrap; align-items: flex-start;">
     <div class="about-text" style="flex: 3;">
+        <div class="about-image" style="flex: 1; text-align: right; padding-left: 20px;">
+        <img src="JuliePhotoBrick.jpg" alt="Profile Image" style="max-width: 70%; height: auto;" />
+        </div>
         <h2>About Me</h2>
 
         <p>Hi! I’m Julie Steele, MIT '26 from D.C. studying computer science, artificial intelligence, and econ. My current research interests are in machine learning, probabilistic programming, and program synthesis. I'm most passionate about helping the world and mitigating risks that will come with AI. I also love math problems, improv comedy, and all sorts of dancing.</p>
@@ -40,9 +45,7 @@ _Last updated: {{ site.time | date: '%Y-%m-%d' }}_
 
         <p>Upcoming: accomplishments and failures page, more cs content, and more thoughts posts</p>
     </div>
-    <div class="about-image" style="flex: 1; text-align: right; padding-left: 20px;">
-        <img src="JuliePhotoBrick.jpg" alt="Profile Image" style="max-width: 70%; height: auto;" />
-    </div>
+    
 </div>
 
 <div style="text-align: center;">
