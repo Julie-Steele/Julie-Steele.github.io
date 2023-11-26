@@ -34,10 +34,10 @@ button {
     cursor: $custom-cursor2
 }
 
-// /* Change cursor on hover */
-// .clickable-element:hover {
-//     cursor: pointer;
-// }
+/* Change cursor on hover */
+.clickable-element:hover {
+    cursor:$custom-cursor2 ;
+}
 
 // /* Change cursor on active (during click) */
 // .clickable-element:active {
