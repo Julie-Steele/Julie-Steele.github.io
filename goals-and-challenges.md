@@ -25,6 +25,10 @@ layout: default
 
 - Never tell anyone anything that happens to me (except work related or emergencies), no photos, for 1 week (started 7/10) COMPLETED as a test of if I only do crazy things / creative learning things for the story
   - Can't say much, but was refreshing and would do again
+- Achieve Eric's love
+  - Success
+- Fully track time for 1 week
+  - Very interesting! Recommend
 - Pointing north whenever I remember to for 1 week (started 3/12) to become better at directions COMPLETED
   - I didn't get any better at it
 - Prove everything assumed in my Linear class (started 2/6) COMPLETED (most)
