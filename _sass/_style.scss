@@ -13,6 +13,7 @@ $line-height: 1.6; // Standard line height for readability
 $bullet-point-spacing: 1.2em; // More space around bullet points
 $paragraph-spacing: 1em; // Standard paragraph spacing
 $custom-cursor: url('turtle.cur'), auto;
+$custom-cursor2: url('christmas.cur'), auto;
 
 // Basic Reset
 * {
@@ -30,8 +31,19 @@ html, body {
 }
 
 button {
-    cursor: $custom-cursor
+    cursor: $custom-cursor2
 }
+
+// /* Change cursor on hover */
+// .clickable-element:hover {
+//     cursor: pointer;
+// }
+
+// /* Change cursor on active (during click) */
+// .clickable-element:active {
+//     cursor: url('custom_click.cur'), auto;
+//}
+
 
 // Navigation Bar
 .navbar {
