@@ -44,6 +44,7 @@ layout: default
   - Too annoying
 - Phone black and white for 1 week (started 1/26) challenged by Alex COMPLETED
   - I want to do this again next time I feel too phone addicted
+- Old but a favorite: met 50 strangers with Isabelle! <iframe width="560" height="315" src="https://www.youtube.com/embed/QggmAOHljB0?si=0xU-Brv5C4Io7aWH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 **Send me more challenge ideas!**
