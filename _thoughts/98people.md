@@ -2,7 +2,7 @@
 layout: post
 title: "Helping People"
 date: 2023-11-26
-image: ../imgs/Rock.webp
+image: ../imgs/world.webp
 ---
 
 # Helping People
