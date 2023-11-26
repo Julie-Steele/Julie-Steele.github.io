@@ -16,10 +16,13 @@ layout: default
         }
 
         .about-image img {
-            max-width: 100%;
+            max-width: 30%;  /* Adjust the max-width as needed */
+            height: auto;
+            margin: 0 auto; /* Center the image */
         }
     }
 </style>
+
 
 _Last updated: {{ site.time | date: '%Y-%m-%d' }}_
 
@@ -46,3 +49,5 @@ _Last updated: {{ site.time | date: '%Y-%m-%d' }}_
     <img src="ShortDC.jpg" alt="Dance Collage" style="max-width: 100%; height: auto;" />
     <img src="dragoncurve.webp" alt="Dragon" style="max-width: 100%; height: auto;" />
 </div>
+
+Site adapted from [Ankit Sultana](https://github.com/ankitsultana)
