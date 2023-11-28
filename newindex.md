@@ -57,13 +57,13 @@ _Last updated: {{ site.time | date: '%Y-%m-%d' }}_
 </div>
 
 ### Current & Past Accomplishments I'm Most Proud Of
-- Currently researching probabilistically inferring world models (the sprites and their code logic) from videos of Atari games with the Computational Cognitive Science Lab. 
-- Member of [MIT AI Alignment club](https://www.mitalignment.org/), discussing machine learning papers weekly as well as hearing from speakers and conducting research. I'm currently doing a project on adversarial training for image generation. 
-- Worked on a self-reasoning, self-modifying AI program synthesis system in Scheme at Harvard. Previously worked on various relational and functional programming projects in miniKanren. 
-- Worked at the Abdul Latif Jameel Poverty Action Lab, analyzing data for random controlled trial experiments for the Tamil Nadu elderly panel. 
-- Was Executive Director of [INTEGIRLS](www.integirls.org), nonprofit with the mission of promoting competitive problem solving for girls, scaling the nonprofit up to over 100 staff running math & puzzle competitions across over 10 cities. Worked in team to create and run 2 online puzzle competitions during the pandemic, and 4 seasons of math competitions including one in-person in D.C. 
-- Competed in math competitions during middle & high school: 8 on American Invitational Mathematics Examination (AIME) & 4-time AIME Qualifier, 1st Place in D.C. for the UMD
-Math Competition, Bronze on USA Math Talent Search (proof competition), Math Prize for Girls Qualifier
+
+| Research | Other |
+|----------|-------|
+| Currently researching probabilistically inferring world models (the sprites and their code logic) from videos of Atari games with the Computational Cognitive Science Lab. | Was Executive Director of [INTEGIRLS](https://www.integirls.org), a nonprofit with the mission of promoting competitive problem solving for girls, scaling the nonprofit up to over 100 staff running math & puzzle competitions across over 10 cities. Worked in team to create and run 2 online puzzle competitions during the pandemic, and 4 seasons of math competitions including one in-person in D.C. |
+| Member of [MIT AI Alignment club](https://www.mitalignment.org/), discussing machine learning papers weekly as well as hearing from speakers and conducting research. I'm currently doing a project on adversarial training for image generation. | Competed in math competitions during middle & high school: 8 on American Invitational Mathematics Examination (AIME) & 4-time AIME Qualifier, 1st Place in D.C. for the UMD Math Competition, Bronze on USA Math Talent Search (proof competition), Math Prize for Girls Qualifier |
+| Worked on a self-reasoning, self-modifying AI program synthesis system in Scheme at Harvard. Previously worked on various relational and functional programming projects in miniKanren. | Worked at the Abdul Latif Jameel Poverty Action Lab, analyzing data for random controlled trial experiments for the Tamil Nadu elderly panel. |
+
 
 <img src="dragoncurve.webp" alt="Dragon" style="display: block; max-width: 30%; max-height: 50%; margin-left: auto; margin-right: auto;" />
 
