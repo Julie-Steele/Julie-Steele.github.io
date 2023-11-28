@@ -2,11 +2,11 @@
 $random-color: rgb(random(255), random(255), random(255));
 
 $font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; // Modern and widely used font
-$primary-color: #ff6e7f; // Coral pink accent color
-$background-color: #000000; //$random-color;// #000000; // Completely black background
-$text-color: #e0e0e0; // Light text for readability on dark background
+$primary-color: #ff6e6e; // Coral pink accent color
+$background-color: #333333; //$random-color;// #000000; // Completely black background
+$text-color: #bcbcbc ; // Light text for readability on dark background
 $link-color: $primary-color; // Consistent pink links
-$nav-background: #000000; // Dark pink nav background for a striking look
+$nav-background: #333333; // Dark pink nav background for a striking look
 $footer-background: $nav-background; // Matching nav background
 $border-radius: 4px; // Rounded corners for a modern look
 $line-height: 1.6; // Standard line height for readability
