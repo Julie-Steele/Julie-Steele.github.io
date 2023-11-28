@@ -58,6 +58,7 @@ _Last updated: {{ site.time | date: '%Y-%m-%d' }}_
 
 ### Current & Past Accomplishments I'm Most Proud Of
 - Currently researching probabilistically inferring world models (the sprites and their code logic) from videos of Atari games with the Computational Cognitive Science Lab. 
+- Member of [MIT AI Alignment club](https://www.mitalignment.org/), discussing machine learning papers weekly as well as hearing from speakers and conducting research. I'm currently doing a project on adversarial training for image generation. 
 - Worked on a self-reasoning, self-modifying AI program synthesis system in Scheme at Harvard. Previously worked on various relational and functional programming projects in miniKanren. 
 - Worked at the Abdul Latif Jameel Poverty Action Lab, analyzing data for random controlled trial experiments for the Tamil Nadu elderly panel. 
 - Was Executive Director of [INTEGIRLS](www.integirls.org), nonprofit with the mission of promoting competitive problem solving for girls, scaling the nonprofit up to over 100 staff running math & puzzle competitions across over 10 cities. Worked in team to create and run 2 online puzzle competitions during the pandemic, and 4 seasons of math competitions including one in-person in D.C. 
