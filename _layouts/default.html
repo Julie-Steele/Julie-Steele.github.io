@@ -105,10 +105,15 @@
         {% endif %}
                 {{ content }}
                 {% if site.footer == true %}
-                    <hr />
-                    <p style="text-align: center; margin-bottom: 10px">
-                    <a href="{{ site.footer_url }}" style="color: black"><small>{{ site.footer_text }}</small></a>
-                    </p>
+
+                <!-- Web Ring Footer -->
+                <footer class="web-ring-footer">
+                    <a href="https://smog.ink/" class="web-ring-link">Shreya</a>
+                    <span class="web-ring-center">Webring!</span>
+                    <a href="https://spruce.world/" class="web-ring-link">Spruce</a>
+                </footer>
+                <!-- End of Web Ring Footer -->
+
                 {% endif %}
             </div>
     </div>
