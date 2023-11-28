@@ -184,3 +184,37 @@ footer {
         overflow: auto; // Ensure text respects the floated image
     }
 }
+
+.web-ring-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f2f2f2; // Change this to match your site's theme
+
+    .web-ring-link-container {
+        margin: 0 20px; // Adjust the margin for bigger gap
+
+        .web-ring-link {
+            display: inline-block;
+            padding: 5px 10px; // Button padding
+            color: #007bff; // Link color
+            text-decoration: none;
+            background-color: #e7e7e7; // Button background color
+            border: 1px solid #d4d4d4; // Button border
+            border-radius: 5px; // Rounded corners for button
+            font-weight: bold;
+
+            &:hover {
+                background-color: #d4d4d4; // Hover background color
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .web-ring-center {
+        flex-grow: 1; // Makes the center text take up the available space
+        text-align: center;
+        color: #333; // Center text color
+    }
+}
