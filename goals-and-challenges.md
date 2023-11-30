@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# Challenges
+# Goals & Challenges
 
 
 ## Current Short Term
