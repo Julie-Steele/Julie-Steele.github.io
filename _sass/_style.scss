@@ -198,10 +198,10 @@ footer {
         .web-ring-link {
             display: inline-block;
             padding: 5px 10px; // Button padding
-            color: $primary-color; // Link color
+            color: $text-color; // Link color
             text-decoration: none;
             background-color: $background-color; // Button background color
-            border: 2px solid $primary-color; // Button border
+            border: 3px solid $primary-color; // Button border
             border-radius: 5px; // Rounded corners for button
             font-weight: bold;
 
