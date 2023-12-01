@@ -108,19 +108,36 @@
                 {% if page.url == "/" %}
 
                 <!-- Web Ring Footer -->
-                <footer class="web-ring-footer">
+                <!-- <footer class="web-ring-footer">
                     <div class="web-ring-link-container">
                         <a href="https://smog.ink/" class="web-ring-link">
                             ← Shreya
                         </a>
                     </div>
-                    <span class="web-ring-center">(webring in prog) check out my friends' sites</span>
+                    <span class="web-ring-center">check out my friends' sites!</span>
                     <div class="web-ring-link-container">
                         <a href="https://spruce.world/" class="web-ring-link">
                             Spruce →
                         </a>
                     </div>
+                </footer> -->
+
+                <footer class="web-ring-footer">
+                    <div class="web-ring-link-container">
+                        <!-- Embed the first site -->
+                        <iframe src="https://smog.ink/" width="300" height="200"></iframe>
+                        <a href="https://smog.ink/" class="web-ring-link">Shreya</a>
+                    </div>
+                
+                    <span class="web-ring-center">check out my friends' sites!</span>
+                
+                    <div class="web-ring-link-container">
+                        <!-- Embed the second site -->
+                        <iframe src="https://spruce.world/" width="300" height="200"></iframe>
+                        <a href="https://spruce.world/" class="web-ring-link">Spruce</a>
+                    </div>
                 </footer>
+                
                 
                 <!-- End of Web Ring Footer -->
                 {% endif %}
