@@ -3,14 +3,17 @@ layout: default
 ---
 # Goals & Challenges
 
+*"You miss 100% of the shots you take"*
+
 
 ## Current Short Term
 
-- 2 hours of research/day for 1 week (11/19)
-- Run every other day for 2 weeks (11/18)
-  - Running at the front of a group is mentally SO much better than me for some reason than the back. I'm interested in conquering the running mental game. I am failing now, still find running really hard. 
-- Must touch phone for 5 Mississippi before clicking on for 1 week (11/26)
-  - arghhh the dopamine
+- Run Tue, Thu, Sat for the rest of the semester(11/18)
+  - Running at the front of a group is mentally SO much better than me for some reason than the back. I was failing the mental game (found it really hard and awful), and now I'm just starting to have happy associations with running. 
+- 6 hours of focused work/day before I can sleep challenged by Eric (11/28)
+- Less than 2.5 hours of phone screen time per day (11/28)
+- Must touch phone for 5 Mississippi before clicking 
+  - arghhh the dopamine, also super hard to remember
 
 ## Current Ongoing
 
@@ -27,7 +30,6 @@ layout: default
   - 3/7 success rate
 - Never tell anyone anything that happens to me (except work related or emergencies), no photos, for 1 week (started 7/10) COMPLETED as a test of if I only do crazy things / creative learning things for the story
   - Can't say much, but was refreshing and would do again
-- Achieve Eric's love
 - Fully track time for 1 week
   - Very interesting! Recommend
 - Pointing north whenever I remember to for 1 week (started 3/12) to become better at directions COMPLETED
