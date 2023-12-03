@@ -23,10 +23,10 @@ nav:
    link: "/goals-and-challenges"
  - name: "Lists"
    link: "/lists"
- - name: "CV"
-   link: "https://www.linkedin.com/in/julie-s-steele/"
  - name: "Feedback"
    link: "https://forms.gle/PqbsZTjuBC7EvfEr8"
+ - name: "CV"
+   link: "https://www.linkedin.com/in/julie-s-steele/"
  - name: "Apply"
    link: "/apply"
   
