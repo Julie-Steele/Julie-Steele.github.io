@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Obsessions" 
+title: "Vanity Plates" 
 image: ../imgs/vanity.jpg
 ---
 
