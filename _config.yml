@@ -16,13 +16,15 @@ sass:
 
 nav:
  - name: "Home"
-   link: "/index"
+   link: "/"
  - name: "Thoughts" #or called entries 
    link: "/thoughts"
  - name: "Goals & Challenges"
    link: "/goals-and-challenges"
  - name: "Lists"
    link: "/lists"
+ - name: "CV"
+   link: resume.pdf
  - name: "Feedback"
    link: "https://forms.gle/PqbsZTjuBC7EvfEr8"
  - name: "Apply"
