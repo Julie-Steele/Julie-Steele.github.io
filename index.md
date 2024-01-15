@@ -46,7 +46,7 @@ _Last updated: {{ site.time | date: '%Y-%m-%d' }}_
     <div class="about-text" style="flex: 3;">
         <h2>About Me</h2>
 
-        <p>Hi! I’m Julie Steele, MIT '26 from D.C. studying computer science, artificial intelligence, and econ. My current research interests are in machine learning, probabilistic programming, and program synthesis. I'm most passionate about helping the world and mitigating risks that will come with AI. I also love math problems, improv comedy, and all sorts of dancing.</p>
+        <p>Hi! I’m Julie Steele, MIT '26 from D.C. studying computer science, artificial intelligence, and econ. This January I've been doing data analysis at Nasdaq during the day and research and rehearsing the musical Chicago at night. My current research interests are in machine learning, probabilistic programming, and program synthesis. I'm most passionate about helping the world and mitigating risks that will come with AI. I also love math problems, improv comedy, and all sorts of dancing.</p>
 
         <p>Welcome to my website. Bit of a diary/tracker/public presence, we'll see! The goal is to accountably push myself, and share random ideas so please reach out if anything resonates.</p>
 

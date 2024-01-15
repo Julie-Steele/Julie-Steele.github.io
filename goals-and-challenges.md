@@ -8,24 +8,31 @@ layout: default
 
 ## Current Short Term
 
-- Run Tue, Thu, Sat for the rest of the semester(11/18)
+-  For 1 week (started 1/14) I'm feeling unproductive/sad/angry/bleh send a little discord message and do something to fix it (little run, change task working on, shower, talk to friend, etc and not just sit in the bleh)
+- Run Tue, Thu, Sat for the rest of the semester(11/18) update and running a couple times a week since
   - Running at the front of a group is mentally SO much better than me for some reason than the back. I was failing the mental game (found it really hard and awful), and now I'm just starting to have happy associations with running. 
-- 6 hours of focused work/day before I can sleep challenged by Eric (11/28)
-- Less than 2.5 hours of phone screen time per day (11/28)
-- Must touch phone for 5 Mississippi before clicking 
-  - arghhh the dopamine, also super hard to remember
+  - Update I feel a jolt of caffeine feeling after running and it is great! Almost addicting ([reminds me of funny studio C video](https://www.youtube.com/watch?v=-NwHNHNXsg0))
+  - Over 20 runs so far 
+- Finally quitting cracking my knuckles oh my god (-$1 per crack)
+
 
 ## Current Ongoing
 
+- Thinking more about what the other person wants & giving more of that
 - No silent elevator rides 
 - Donating at least 10% income [https://www.givingwhatwecan.org/](https://www.givingwhatwecan.org/)
 - Phone locked to max 30 mins YouTube+TikTok and max 20 mins Instagram (for over a year now I think!)
   - Going great! Highly recommend. Have someone else set the password
-- Improving my singing! Doing next sing and random acapella with Shreya
+- Improving my singing! Doing chicago and next sing and random acapella with Shreya
+- Curiosity and excitement
 
 
 ## Past Challenges
 
+- 6 hours of focused work/day before I can sleep challenged by Eric (11/28) SUCCESS
+- Less than 2.5 hours of phone screen time per day (11/28) SOME OF EACH
+- Must touch phone for 5 Mississippi before clicking FAILED 
+  - arghhh the dopamine, also super hard to remember
 - Try out for as many clubs as possible (rejection therapy) SUCCESS (did 4 dance groups, 2 acapella groups, 1 frat)
   - 3/7 success rate
 - Never tell anyone anything that happens to me (except work related or emergencies), no photos, for 1 week (started 7/10) COMPLETED as a test of if I only do crazy things / creative learning things for the story
