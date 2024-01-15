@@ -6,11 +6,11 @@ image: ../imgs/classes.png
 
 ## Reflection on Classes
 
-### Sophomore fall  (in progress)
-- **Deep Learning 6.s898**
-- **Abstract Algebra I 18.701** 
-- **Algorithms 6.121**
-- **National Security 17.46**
+### Sophomore fall  
+- **Deep Learning 6.s898**: FANTASTIC! current deep learning architectures. Homework a good mix of theory and PyTorch, definitely need to work with others. Great lectures from Beery and Isola, learned a ton. I ended up using all of what I learned content and coding wise. 
+- **Abstract Algebra I 18.701**: HARD GOOD problems in the homework, which I mostly could get after puzzling over or office hours. I'm really really proud of my progress with this class since I didn't find it easy. I met my match though because this class was tough. Half of the class got perfect scores on every difficult quiz which I couldn't have dreamed of getting. I found lectures too hard too follow and there to be a lack of resources for the class. I worked hard and enjoyed it. 
+- **Algorithms 6.121**: The tests were fun with thinking of algorithms during the time and all! I did this class somewhat minimally skipping lecture and then using lecture notes and figuring stuff out as needed which was rough at times. I think well made material/lecture notes but also idk all the large lectures are outdated. 
+- **National Security 17.46**: LOVED super relevant content taught by a really approachable, engaging professor. Learned about relevant topics like 9/11, nuclear weapons, sanctions, and tons more. Ended up writing final essay proposing international AI regulation as well. Really recommend taking this Lin-Greenberg class. 
 
 ### Freshman spring
 
