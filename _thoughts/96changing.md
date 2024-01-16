@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Consistant opinions are rare (that's what I think now at least)"
-date: 2023-11-23
+date: 2024-1-16
 image: ../imgs/changingimage.jpg
 ---
 
