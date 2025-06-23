@@ -58,3 +58,39 @@ value
 ### License
 
 [GNU GPL v3](https://github.com/bk2dcradle/researcher/blob/gh-pages/LICENSE)
+
+### AI design server
+
+A small Express server (`server.js`) proxies requests to OpenAI so the API key is never exposed to the browser. The `/design` endpoint is rate limited to reduce API usage. Copy `.env.example` to `.env` and provide your API key before running:
+
+```bash
+npm install
+node server.js
+```
+
+The server can be deployed to any Node environment. To keep it running on Firebase Functions:
+
+1. Install the Firebase CLI and log in:
+   ```bash
+   npm install -g firebase-tools
+   firebase login
+   ```
+2. Initialize a new project with Cloud Functions enabled:
+   ```bash
+   firebase init functions
+   ```
+3. Replace `functions/index.js` with the following to use the existing Express app:
+   ```javascript
+   const functions = require('firebase-functions');
+   const app = require('../server');
+   exports.design = functions.https.onRequest(app);
+   ```
+4. Install function dependencies and deploy:
+   ```bash
+   cd functions
+   npm install
+   cd ..
+   firebase deploy --only functions
+   ```
+
+Firebase will provide a URL for the deployed function which you can use as the endpoint for `/design`. Update your site or hosting configuration to proxy requests to that URL so the design feature works anywhere.
