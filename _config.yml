@@ -17,8 +17,6 @@ sass:
 nav:
  - name: "Home"
    link: "/"
- - name: "Thoughts" #or called entries 
-   link: "/thoughts"
  - name: "Goals & Challenges"
    link: "/goals-and-challenges"
  - name: "Lists"
