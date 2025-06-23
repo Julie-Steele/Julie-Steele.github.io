@@ -1,5 +1,6 @@
 const express = require('express');
 const fetch = require('node-fetch');
+
 const rateLimit = require('express-rate-limit');
 require('dotenv').config();
 
@@ -24,6 +25,13 @@ const limiter = rateLimit({
 });
 app.use('/design', limiter);
 
+=======
+require('dotenv').config();
+
+const app = express();
+app.use(express.json());
+  
+
 app.post('/design', async (req, res) => {
   const experience = req.body.experience;
   if (!experience) {
@@ -34,7 +42,11 @@ app.post('/design', async (req, res) => {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
+
         'Authorization': `Bearer ${OPENAI_API_KEY}`
+
+        'Authorization': `Bearer ${process.env.OPENAI_API_KEY}`
+
       },
       body: JSON.stringify({
         model: 'gpt-3.5-turbo',
@@ -57,6 +69,7 @@ app.post('/design', async (req, res) => {
 });
 
 const PORT = process.env.PORT || 3000;
+
 if (require.main === module) {
   app.listen(PORT, () => {
     console.log(`Server listening on port ${PORT}`);
@@ -64,3 +77,8 @@ if (require.main === module) {
 }
 
 module.exports = app;
+
+app.listen(PORT, () => {
+  console.log(`Server listening on port ${PORT}`);
+});
+

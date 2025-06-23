@@ -4,4 +4,9 @@ _site
 .DS_Store
 .jekyll-cache
 _sass/config.yaml
+
 functions/node_modules
+
+.env
+gh-pages
+.env
