@@ -1,9 +1,17 @@
 const express = require('express');
 const fetch = require('node-fetch');
+const rateLimit = require('express-rate-limit');
 require('dotenv').config();
 
 const app = express();
 app.use(express.json());
+
+// Limit each IP to 5 requests per hour to control API costs
+const limiter = rateLimit({
+  windowMs: 60 * 60 * 1000,
+  max: 5
+});
+app.use('/design', limiter);
 
 app.post('/design', async (req, res) => {
   const experience = req.body.experience;
@@ -38,6 +46,10 @@ app.post('/design', async (req, res) => {
 });
 
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
-  console.log(`Server listening on port ${PORT}`);
-});
+if (require.main === module) {
+  app.listen(PORT, () => {
+    console.log(`Server listening on port ${PORT}`);
+  });
+}
+
+module.exports = app;

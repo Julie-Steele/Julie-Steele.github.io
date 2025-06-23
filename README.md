@@ -61,9 +61,11 @@ value
 
 ### AI design server
 
-A small Express server (`server.js`) proxies requests to OpenAI so the API key is never exposed to the browser. Copy `.env.example` to `.env` and provide your API key before running:
+A small Express server (`server.js`) proxies requests to OpenAI so the API key is never exposed to the browser. The `/design` endpoint is rate limited to reduce API usage. Copy `.env.example` to `.env` and provide your API key before running:
 
 ```bash
 npm install
 node server.js
 ```
+
+The server can be deployed to any Node environment. If you prefer Firebase, wrap `server.js` with a Firebase Function so it runs alongside the game backend.
