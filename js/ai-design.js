@@ -1,7 +1,8 @@
 // Ask user for the desired experience and fetch CSS from the local server
-
+/*
 document.addEventListener('DOMContentLoaded', () => {
   const experience = prompt('What experience do you want? (e.g., professional, whimsical, upside down)');
+  console.log(experience)
   if (!experience) return;
   getDesignFromServer(experience)
     .then(css => applyDesign(css))
@@ -26,3 +27,4 @@ function applyDesign(css) {
   style.textContent = css;
   document.head.appendChild(style);
 }
+*/

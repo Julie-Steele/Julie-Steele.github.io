@@ -1,0 +1,28 @@
+2025-06-22 20:43:32 PDT INFO    Starting Codex v1.7.14
+2025-06-22 20:43:32 PDT INFO    Ensuring database is correct and up to date...
+2025-06-22 20:43:42 PDT INFO    Database ready.
+2025-06-22 20:43:42 PDT INFO    Created admin user.
+2025-06-22 20:43:42 PDT INFO    Created AdminFlag: Folder View = True
+2025-06-22 20:43:42 PDT INFO    Created AdminFlag: Registration = True
+2025-06-22 20:43:42 PDT INFO    Created AdminFlag: Non Users = True
+2025-06-22 20:43:42 PDT INFO    Created AdminFlag: Auto Update = False
+2025-06-22 20:43:42 PDT INFO    Created AdminFlag: Import Metadata = True
+2025-06-22 20:43:42 PDT INFO    Created AdminFlag: Send Telemetry = True
+2025-06-22 20:43:42 PDT INFO    Created AdminFlag: Banner Text = True
+2025-06-22 20:43:43 PDT INFO    Created Custom Covers Dir settings in the db.
+2025-06-22 20:43:43 PDT INFO    root_path: 
+2025-06-22 20:43:43 PDT INFO    Running Codex v1.7.14
+2025-06-22 20:43:43 PDT INFO    BroadcastListener started.
+2025-06-22 20:43:43 PDT INFO    LibrarianDaemon started all threads.
+2025-06-22 20:43:43 PDT INFO    LibrarianDaemon ready for tasks.
+2025-06-22 20:43:43 PDT INFO    Started watching library /home/jssteele/website/Julie-Steele.github.io/config/custom-covers with poll
+2025-06-22 20:43:43 PDT INFO    Library /home/jssteele/website/Julie-Steele.github.io/config/custom-covers waiting for manual poll.
+2025-06-22 20:43:43 PDT INFO    Looking for search entries to update since the fracturing of the multiverse...
+2025-06-22 20:43:43 PDT INFO    No search entries to update.
+2025-06-22 20:43:43 PDT INFO    Looking for missing search entries to create...
+2025-06-22 20:43:43 PDT INFO    No search entries to create.
+2025-06-22 20:43:43 PDT INFO    Search index updated in a moment.
+2025-06-22 20:43:47 PDT INFO    LibrarianDaemon joined all threads.
+2025-06-22 20:43:47 PDT INFO    LibrarianDaemon finished.
+2025-06-22 20:43:47 PDT INFO    BroadcastListener shutdown
+2025-06-22 20:43:47 PDT INFO    Goodbye.
