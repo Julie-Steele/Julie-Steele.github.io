@@ -58,3 +58,12 @@ value
 ### License
 
 [GNU GPL v3](https://github.com/bk2dcradle/researcher/blob/gh-pages/LICENSE)
+
+### AI design server
+
+A small Express server (`server.js`) proxies requests to OpenAI so the API key is never exposed to the browser. Copy `.env.example` to `.env` and provide your API key before running:
+
+```bash
+npm install
+node server.js
+```
