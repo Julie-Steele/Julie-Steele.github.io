@@ -1,30 +1,24 @@
-// Ask user for the desired experience and fetch CSS from an AI model
+// Ask user for the desired experience and fetch CSS from the local server
 
 document.addEventListener('DOMContentLoaded', () => {
   const experience = prompt('What experience do you want? (e.g., professional, whimsical, upside down)');
   if (!experience) return;
-  getDesignFromAI(experience).then(css => applyDesign(css)).catch(err => console.error('Design generation failed:', err));
+  getDesignFromServer(experience)
+    .then(css => applyDesign(css))
+    .catch(err => console.error('Design generation failed:', err));
 });
 
-async function getDesignFromAI(experience) {
-  const apiKey = '';
-  const response = await fetch('https://api.openai.com/v1/chat/completions', {
+async function getDesignFromServer(experience) {
+  const response = await fetch('/design', {
     method: 'POST',
     headers: {
-      'Content-Type': 'application/json',
-      'Authorization': 'Bearer ' + apiKey
+      'Content-Type': 'application/json'
     },
-    body: JSON.stringify({
-      model: 'gpt-3.5-turbo',
-      messages: [
-        { role: 'system', content: 'You are a helpful designer that outputs CSS for the website.' },
-        { role: 'user', content: `Create CSS to style the webpage in a ${experience} theme.` }
-      ]
-    })
+    body: JSON.stringify({ experience })
   });
   const data = await response.json();
-  if (!data.choices || !data.choices.length) throw new Error('No design received');
-  return data.choices[0].message.content;
+  if (!data.css) throw new Error('No design received');
+  return data.css;
 }
 
 function applyDesign(css) {
