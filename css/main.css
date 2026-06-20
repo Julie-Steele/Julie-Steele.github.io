@@ -1,0 +1,97 @@
+@import url("https://fonts.cdnfonts.com/css/ds-digital");
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+
+html {
+  cursor: url("/css/turtle.cur"), auto;
+}
+
+body {
+  min-height: calc(100vh - 80px);
+  max-width: 860px;
+  margin: 40px auto;
+  padding: 0 24px;
+  background: #fff;
+  color: #222;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+}
+
+.page {
+  flex: 1;
+}
+
+a {
+  color: #ff6e6e;
+}
+
+h1 {
+  color: #ff6e6e;
+  font-family: "Sacramento", cursive;
+  font-size: 5rem;
+  font-weight: normal;
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+
+.profile-photo {
+  float: right;
+  max-width: 260px;
+  height: auto;
+  margin: 0 0 18px 30px;
+}
+
+.inline-favicon {
+  width: 18px;
+  height: 18px;
+  vertical-align: -3px;
+  margin-right: 6px;
+}
+
+#agi-weeks {
+  display: inline-block;
+  min-width: 3ch;
+  padding: 2px 6px;
+  color: #ff6e6e;
+  font-family: "DS-Digital", "Courier New", Courier, monospace;
+  font-size: 1.7rem;
+  font-weight: bold;
+  line-height: 1;
+  border: 1px solid #ff6e6e;
+}
+
+.web-ring-footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 48px;
+}
+
+.web-ring-center {
+  text-align: center;
+}
+
+.web-ring-link {
+  color: #222;
+  white-space: nowrap;
+}
+
+@media (max-width: 620px) {
+  .web-ring-footer {
+    display: block;
+    text-align: center;
+  }
+
+  .profile-photo {
+    float: none;
+    display: block;
+    max-width: 260px;
+    margin: 0 0 18px;
+  }
+
+  .web-ring-footer > * {
+    display: block;
+    margin: 10px 0;
+  }
+}
