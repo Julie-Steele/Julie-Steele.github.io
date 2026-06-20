@@ -14,7 +14,7 @@ I'm quite concerned about the dangers AI development comes with including but no
 
 Anyway, fun facts about me:
 - I'm usually [dancing](dancing.html) :)
-- I love recursion, beautiful programs, and math puzzles
+- I love recursion, beautiful programs, math problems, and learning new things
 - I love auditions. I've attended >15 auditions which >5 I was not qualified for (including for a professional dance troupe in Paris. I don't speak French)
 - Convinced by the [drowning child argument](https://philosophybreak.com/articles/peter-singer-on-the-life-you-can-save/), I've pledged to donate >10% of my income for the rest of my life
 - In college, my research included robustness, probabilistic programming, and program synthesis
